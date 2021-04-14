@@ -12,6 +12,7 @@ module.exports = {
       fontFamily: {
         inter: "Inter, sans-serif",
         fira: "Fira Code, monospace",
+        ramona: "Ramona, display",
       },
     },
   },

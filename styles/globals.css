@@ -5,6 +5,12 @@
 @tailwind utilities;
 
 @layer base {
+  @font-face {
+    font-family: "Ramona";
+    src: url("/fonts/Ramona-Bold.woff") format("woff");
+    font-weight: 700;
+    font-display: swap;
+  }
   p {
     @apply font-inter text-black;
   }

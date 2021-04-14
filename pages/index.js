@@ -8,9 +8,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   useEffect(() => {
-    console.log(
-      "Made by Sarthak Mohanty. All Rights Reserved. Want to hire me? https://srtk.me"
-    );
+    console.log("Sign up for NeoHacks!");
   });
 
   return (
@@ -20,23 +18,23 @@ export default function Home() {
       <main>
         <section className="bg-navy m-0">
           <div className="p-12 md:p-24 flex flex-col space-y-5 md:pt-48 relative z-50">
-            <h1 className="text-5xl md:text-8xl font-black text-white">
+            <h1 className="text-5xl md:text-8xl font-black text-white font-ramona">
               NeoHacks
             </h1>
             <h3 className="font-fira text-white text-xl md:text-2xl w-2/3 md:w-full">
               June 25-27, 2021 • Virtual
             </h3>
 
-            <Link>
-              <button className="rounded-full bg-white font-inter text-base md:text-lg font-medium p-2 px-6">
+            <button className="rounded-full bg-white font-inter text-base md:text-lg font-medium p-2 px-6 w-min">
+              <Link href="/">
                 <a>Register</a>
-              </button>
-            </Link>
+              </Link>
+            </button>
           </div>
           <img
             src="/cliff.svg"
             alt="cliff"
-            className="-mt-52 md:-mt-72 w-full relative z-0"
+            className="w-full relative z-0 -mt-64"
           />
         </section>
         <section>
