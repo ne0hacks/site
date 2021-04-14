@@ -1,6 +1,7 @@
-# Perfect
-The best Next.js boilerplate ever.
-# What does this have?
+# NeoHacks Website
+
+## What does this project use?
+
 - Tailwind CSS (no more going through the installation guide!) - for styling components easily
 - `next-themes` (@pacocoursey) - for going to the dark side
 - `swr` (@vercel) - for fetching constantly mutating data
@@ -8,4 +9,4 @@ The best Next.js boilerplate ever.
 - `framer-motion` - for making interactive components and eye-catching animations
 - `react-icons` - for including your favorite icon packs without increasing bundle size significantly. Tree shaking included.
 
-&copy; 2021 Sarthak Mohanty. Licensed under the [Unlicense](LICENSE) from Mozilla.
+Site designed by [Sarthak Mohanty](https://srtk.me).
