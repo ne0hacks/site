@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  p {
+    @apply font-inter text-black;
+  }
+  h2 {
+    @apply font-inter font-black text-5xl text-black;
+  }
+  section {
+    @apply my-20 mx-8 md:mx-24;
+  }
+}
