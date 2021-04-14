@@ -3,6 +3,7 @@ import HeadObject from "../components/head";
 // import Nav from "../components/nav";
 import Question from "../components/Question";
 import Person from "../components/Person";
+import Footer from "../components/Footer";
 
 export default function Home() {
   useEffect(() => {
@@ -16,6 +17,20 @@ export default function Home() {
       <HeadObject />
       {/* <Nav /> */}
       <main>
+        <section className="bg-navy m-0">
+          <div className="p-24 flex flex-col space-y-5 pt-48">
+            <h1 className="text-8xl font-black text-white">NeoHacks</h1>
+            <h3 className="font-fira text-white text-2xl">
+              June 25-27, 2021 • Virtual
+            </h3>
+            <a href="">
+              <button className="rounded-full bg-white font-inter text-lg font-medium p-2 px-6">
+                Register
+              </button>
+            </a>
+          </div>
+          <img src="/cliff.svg" alt="cliff" className="-mt-72 w-full" />
+        </section>
         <section>
           <h2>FAQ</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -51,16 +66,76 @@ export default function Home() {
         </section>
         <section>
           <h2>Judges</h2>
-          <div>
+          <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
             <Person
               name="Guillermo Rauch"
               role="Founder of Vercel."
               pronouns="he/him"
-              src="https://lh3.googleusercontent.com/proxy/URpVZvntl_AYWBZhXQtfjdYdblBlFbIEWwfmEmORfqYVWdzPgRBovfvG9OaW1erSVznJWNjJsdCL2-JY46J8iTzOe45dKok"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+            />
+            <Person
+              name="Guillermo Rauch"
+              role="Founder of Vercel."
+              pronouns="he/him"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+            />
+            <Person
+              name="Guillermo Rauch"
+              role="Founder of Vercel."
+              pronouns="he/him"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+            />
+            <Person
+              name="Guillermo Rauch"
+              role="Founder of Vercel."
+              pronouns="he/him"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+            />
+          </div>
+        </section>
+        <section>
+          <h2>Team</h2>
+          <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
+            <Person
+              name="Risha"
+              role="Lead Organizer."
+              pronouns="she/her"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+            />
+            <Person
+              name="Marius"
+              role="Hack Clubber."
+              pronouns="he/him"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+            />
+            <Person
+              name="Daniel Katz"
+              role="Hack Clubber."
+              pronouns="he/him"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+            />
+            <Person
+              name="Daniel S."
+              role="Hack Clubber."
+              pronouns="he/him"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+            />
+            <Person
+              name="Neta"
+              role="Hack Clubber."
+              pronouns="she/her"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+            />
+            <Person
+              name="Ella"
+              role="Nobody."
+              pronouns="she/her"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
             />
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }

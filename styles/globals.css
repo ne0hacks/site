@@ -11,4 +11,7 @@
   h2 {
     @apply font-inter font-black text-5xl text-black;
   }
+  section {
+    @apply my-20 mx-8 md:mx-24;
+  }
 }
