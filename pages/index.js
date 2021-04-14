@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Link from "next/link";
 import HeadObject from "../components/head";
 // import Nav from "../components/nav";
 import Question from "../components/Question";
@@ -25,11 +26,12 @@ export default function Home() {
             <h3 className="font-fira text-white text-xl md:text-2xl w-2/3 md:w-full">
               June 25-27, 2021 • Virtual
             </h3>
-            <a href="">
+
+            <Link>
               <button className="rounded-full bg-white font-inter text-base md:text-lg font-medium p-2 px-6">
-                Register
+                <a>Register</a>
               </button>
-            </a>
+            </Link>
           </div>
           <img
             src="/cliff.svg"
