@@ -5,6 +5,18 @@ import HeadObject from "../components/head";
 import Question from "../components/Question";
 import Person from "../components/Person";
 import Footer from "../components/Footer";
+import Prize from "../components/Prize";
+import Workshop from "../components/Workshop";
+import Sponsor from "../components/Sponsor";
+
+const Sponsors = [
+  {
+    companyName: "Hack Club Bank",
+    logo:
+      "https://cloud-lsj5acqf8-hack-club-bot.vercel.app/0powered-by-hack-club.png",
+    website: "https://bank.hackclub.com",
+  },
+];
 
 export default function Home() {
   useEffect(() => {
@@ -38,6 +50,18 @@ export default function Home() {
           />
         </section>
         <section>
+          <h2 className="md:leading-loose pb-4 md:pb-0">
+            Welcome to <span className="font-ramona text-navy">NeoHacks</span>!
+          </h2>
+          <p className="text-lg ">
+            NeoHacks is a 48-hour hackathon taking place June 25-27, 2021 where
+            hundreds of students from around the world will come together
+            virtually to learn new skills, meet new friends, and build awesome
+            projects. We provide beginner-friendly workshops, mentorship, fun
+            games, and more.
+          </p>
+        </section>
+        <section>
           <h2>FAQ</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
             <Question title="Where is this held?">
@@ -68,7 +92,34 @@ export default function Home() {
         </section>
         <section>
           <h2>Prizes</h2>
-          <div></div>
+          <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
+            <Prize icon="/star.svg" title="Best Overall">
+              You'll each win a Google Home Mini. (Up to 4 team members)
+            </Prize>
+          </div>
+        </section>
+        <section>
+          <h2>Workshops</h2>
+          <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
+            <Workshop title="Intro to Web Dev">
+              This workshop serves as an introduction to web development with
+              HTML and CSS.
+            </Workshop>
+          </div>
+        </section>
+        <section>
+          <h2 className="pb-4">Sponsors</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4">
+            {Sponsors.map(({ logo, companyName, website }) => {
+              return (
+                <Sponsor
+                  logo={logo}
+                  companyName={companyName}
+                  website={website}
+                />
+              );
+            })}
+          </div>
         </section>
         <section>
           <h2>Judges</h2>
