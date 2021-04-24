@@ -3,7 +3,7 @@ import Head from "next/head";
 export default function HeadObject({ children }) {
   const title = "NeoHacks | Virtual";
   const description =
-    "NeoHacks is a beginner friendly virtual hackathon on June 25-27, 2021.";
+    "NeoHacks is a beginner friendly virtual hackathon coming in June 2021.";
   const keywords = "hackathon, code, stem, hack, beginner";
   const author = "NeoHacks";
   const twitter = "@neohacks";

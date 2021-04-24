@@ -96,6 +96,25 @@ export default function Home() {
             <Prize icon="/star.svg" title="Best Overall">
               You'll each win a Google Home Mini. (Up to 4 team members)
             </Prize>
+            <Prize icon="/lightbulb.svg" title="Most Creative Idea">
+              You'll each win a Google Home Mini. (Up to 4 team members)
+            </Prize>
+            <Prize icon="/template.svg" title="Best UI/UX Design">
+              Each member of your team will receive a 1-year license for Sketch,
+              a design platform for prototyping and collaboration.
+            </Prize>
+            <Prize icon="/globe.svg" title="Best Web Project">
+              You'll each win a Sublime Text License as well as some other
+              random stuff.
+            </Prize>
+            <Prize icon="/phone.svg" title="Best Mobile App">
+              You'll each win a Google Home Mini. (Up to 4 team members)
+            </Prize>
+            <Prize icon="/sparkles.svg" title="Best Workshop Hack">
+              Attend a workshop and base your project off what you learned at
+              that workshop. Be sure to tell us which workshop you attended and
+              how you took your project further after the workshop.
+            </Prize>
           </div>
         </section>
         <section>
@@ -185,7 +204,7 @@ export default function Home() {
             />
             <Person
               name="Ella"
-              role="Nobody."
+              role="Another Hack Clubber."
               pronouns="she/her"
               src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
             />
