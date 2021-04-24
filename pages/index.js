@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import HeadObject from "../components/head";
+import { motion } from "framer-motion";
 // import Nav from "../components/nav";
 import Question from "../components/Question";
 import Person from "../components/Person";
@@ -29,7 +30,12 @@ export default function Home() {
       {/* <Nav /> */}
       <main>
         <section className="bg-navy m-0">
-          <div className="p-12 md:p-24 flex flex-col space-y-5 md:pt-48 relative z-50">
+          <motion.div
+            initial={{ x: -300, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            className="p-12 md:p-24 flex flex-col space-y-5 md:pt-48 relative z-50"
+          >
             <h1 className="text-5xl md:text-8xl font-black text-white font-ramona">
               NeoHacks
             </h1>
@@ -37,12 +43,16 @@ export default function Home() {
               June 25-27, 2021 • Virtual
             </h3>
 
-            <button className="rounded-full bg-white font-inter text-base md:text-lg font-medium p-2 px-6 w-min">
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="rounded-full bg-white font-inter text-base md:text-lg font-medium p-2 px-6 w-min"
+            >
               <Link href="/">
                 <a>Register</a>
               </Link>
-            </button>
-          </div>
+            </motion.button>
+          </motion.div>
           <img
             src="/cliff.svg"
             alt="cliff"
