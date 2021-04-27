@@ -14,7 +14,7 @@ export default function Footer() {
   return (
     <footer
       id="footer"
-      className="mt-32 text-black font-inter font-semibold uppercase text-center"
+      className="mt-32 text-black font-inter font-semibold uppercase text-center pb-6"
     >
       <ul
         id="footernav"
@@ -33,7 +33,7 @@ export default function Footer() {
           </li>
         ))}
       </ul>
-      <h1 className="opacity-60 px-6 md:px-4 text-2xl md:text-3xl">
+      <h1 className="opacity-60 px-6 md:px-4 text-base">
         copyright neohacks {new Date().getFullYear()} all rights reserved
       </h1>
     </footer>
