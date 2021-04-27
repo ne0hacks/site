@@ -48,9 +48,7 @@ export default function Home() {
               whileTap={{ scale: 0.9 }}
               className="rounded-full bg-white font-inter text-base md:text-lg font-medium p-2 px-6 w-min"
             >
-              <Link href="/">
-                <a>Register</a>
-              </Link>
+              <a href="https://airtable.com/shrhuP6sBAWskOiqT">Register</a>
             </motion.button>
           </motion.div>
           <img
@@ -68,35 +66,31 @@ export default function Home() {
             hundreds of students from around the world will come together
             virtually to learn new skills, meet new friends, and build awesome
             projects. We provide beginner-friendly workshops, mentorship, fun
-            games, and more.
+            games, and more. The first day of the event will be workshop based
+            where you will get a chance to gain new skills. The second day will
+            be dedicated towards your building your product.
           </p>
         </section>
         <section>
           <h2>FAQ</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
             <Question title="Where is this held?">
-              Lorem ipsum dolor sit amet. Snapchat HQ. It’s a dummy place which
-              has no real value for anybody that lives in or around it.
+              Due to COVID-19, NeoHacks is completely virtual and will take
+              place on Zoom and Discord.
             </Question>
-            <Question title="Where is this held?">
-              Lorem ipsum dolor sit amet. Snapchat HQ. It’s a dummy place which
-              has no real value for anybody that lives in or around it.
+            <Question title="What is a hackathon?">
+              A hackathon is a great place to learn new skills, make new
+              friends, and have fun. By the end of the hackathon, you will have
+              turn in a project for feedback from judges.
             </Question>
-            <Question title="Where is this held?">
-              Lorem ipsum dolor sit amet. Snapchat HQ. It’s a dummy place which
-              has no real value for anybody that lives in or around it.
+            <Question title="Who is eligible to participate?">
+              This hackathon is open to anyone regardless of their identity. We
+              highly encourage beginners to participate!
             </Question>
-            <Question title="Where is this held?">
-              Lorem ipsum dolor sit amet. Snapchat HQ. It’s a dummy place which
-              has no real value for anybody that lives in or around it.
-            </Question>
-            <Question title="Where is this held?">
-              Lorem ipsum dolor sit amet. Snapchat HQ. It’s a dummy place which
-              has no real value for anybody that lives in or around it.
-            </Question>
-            <Question title="Where is this held?">
-              Lorem ipsum dolor sit amet. Snapchat HQ. It’s a dummy place which
-              has no real value for anybody that lives in or around it.
+            <Question title="How can I prepare for a hackathon?">
+              No advanced preparation is necessary! We have workshops tailored
+              to those who are new to coding and intro workshops to help
+              beginner hackers.
             </Question>
           </div>
         </section>
@@ -109,10 +103,7 @@ export default function Home() {
             <Prize icon="/lightbulb.svg" title="Most Creative Idea">
               You'll each win a Google Home Mini. (Up to 4 team members)
             </Prize>
-            <Prize icon="/template.svg" title="Best UI/UX Design">
-              Each member of your team will receive a 1-year license for Sketch,
-              a design platform for prototyping and collaboration.
-            </Prize>
+
             <Prize icon="/globe.svg" title="Best Web Project">
               You'll each win a Sublime Text License as well as some other
               random stuff.
@@ -130,9 +121,26 @@ export default function Home() {
         <section>
           <h2>Workshops</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
-            <Workshop title="Intro to Web Dev">
+            <Workshop title="Intro to HTML/CSS">
               This workshop serves as an introduction to web development with
               HTML and CSS.
+            </Workshop>
+            <Workshop title="Intro to Figma">
+              Learn how to use Figma, a free design and prototyping software, to
+              develop the UI for your project.
+            </Workshop>
+            <Workshop title="Intro to Databases">
+              Know the basics of web development and want to take it further?
+              Learn how to set up a database and use it in your project.
+            </Workshop>
+            <Workshop title="Intro to React (Next.js)">
+              Learn the basics of react using the Next.js framework to build
+              modern, dynamic websites.
+            </Workshop>
+            <Workshop title="Intro to Python">
+              This workshop serves as a basic introduction to python, a
+              powerful, general-purpose programming language with a diverse
+              range of applications.
             </Workshop>
           </div>
         </section>
@@ -151,7 +159,7 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <h2>Judges</h2>
+          {/* <h2>Judges</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
             <Person
               name="Guillermo Rauch"
@@ -177,7 +185,7 @@ export default function Home() {
               pronouns="he/him"
               src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
             />
-          </div>
+          </div> */}
         </section>
         <section>
           <h2>Team</h2>
