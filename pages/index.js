@@ -66,9 +66,10 @@ export default function Home() {
             hundreds of students from around the world will come together
             virtually to learn new skills, meet new friends, and build awesome
             projects. We provide beginner-friendly workshops, mentorship, fun
-            games, and more. The first day of the event will be workshop based
-            where you will get a chance to gain new skills. The second day will
-            be dedicated towards your building your product.
+            games, and more. The first day of the event will be a workshop-based
+            learnathon where you will get a chance to gain new skills. The
+            second day will be dedicated towards your building a project with
+            your team.
           </p>
         </section>
         <section>
@@ -92,24 +93,34 @@ export default function Home() {
               to those who are new to coding and intro workshops to help
               beginner hackers.
             </Question>
+            <Question title="What if I don't have a team?">
+              There will be several team formation opportunities before and
+              during the event. Although working with a team (of 1-4 hackers) is
+              highly encouraged, you may choose to work alone.
+            </Question>
           </div>
         </section>
         <section>
           <h2>Prizes</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
             <Prize icon="/star.svg" title="Best Overall">
-              You'll each win a Google Home Mini. (Up to 4 team members)
+              Every project submitted will be entered in this category. Winners
+              will each receive a Discord Nitro subscription along with a $50
+              Amazon gift-card.
             </Prize>
             <Prize icon="/lightbulb.svg" title="Most Creative Idea">
-              You'll each win a Google Home Mini. (Up to 4 team members)
+              You'll each win a $20 gift-card along with a one-year license for
+              Sketch, a design platform used by over one million people — from
+              freelancers, to the world’s largest teams.
             </Prize>
 
             <Prize icon="/globe.svg" title="Best Web Project">
-              You'll each win a Sublime Text License as well as some other
-              random stuff.
+              Create a web application for a chance to win a $25 gift card of
+              choice for each member of your team.
             </Prize>
             <Prize icon="/phone.svg" title="Best Mobile App">
-              You'll each win a Google Home Mini. (Up to 4 team members)
+              Create a mobile app using any technologies you wish to use. You'll
+              each win a Google Home Mini (up to 4 team members).
             </Prize>
             <Prize icon="/sparkles.svg" title="Best Workshop Hack">
               Attend a workshop and base your project off what you learned at
