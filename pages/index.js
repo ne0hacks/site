@@ -104,30 +104,6 @@ export default function Home() {
         <section>
           <h2>Prizes</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
-            {/* <Prize icon="/star.svg" title="Best Overall">
-              Every project submitted will be entered in this category. Winners
-              will each receive a Discord Nitro subscription along with a $50
-              Amazon gift-card.
-            </Prize>
-            <Prize icon="/lightbulb.svg" title="Most Creative Idea">
-              You'll each win a $20 gift-card along with a one-year license for
-              Sketch, a design platform used by over one million people — from
-              freelancers, to the world’s largest teams.
-            </Prize>
-
-            <Prize icon="/globe.svg" title="Best Web Project">
-              Create a web application for a chance to win a $25 gift card of
-              choice for each member of your team.
-            </Prize>
-            <Prize icon="/phone.svg" title="Best Mobile App">
-              Create a mobile app using any technologies you wish to use. You'll
-              each win a Google Home Mini (up to 4 team members).
-            </Prize>
-            <Prize icon="/sparkles.svg" title="Best Workshop Hack">
-              Attend a workshop and base your project off what you learned at
-              that workshop. Be sure to tell us which workshop you attended and
-              how you took your project further after the workshop.
-            </Prize> */}
             <Card type={2} icon="star" color="orange" heading="Best Overall">
               Every project submitted will be entered in this category. Winners
               will each receive a Discord Nitro subscription along with a $50
