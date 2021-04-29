@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 import Prize from "../components/Prize";
 import Workshop from "../components/Workshop";
 import Sponsor from "../components/Sponsor";
+import Card from "../components/Card";
 
 const Sponsors = [
   {
@@ -34,7 +35,7 @@ export default function Home() {
             initial={{ x: -300, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
-            className="p-12 md:p-24 flex flex-col space-y-5 md:pt-48 relative z-50"
+            className="p-12 pb-16 md:p-24 flex flex-col space-y-5 md:pt-48 relative z-50"
           >
             <h1 className="text-5xl md:text-8xl font-black text-white font-ramona">
               NeoHacks
@@ -54,7 +55,7 @@ export default function Home() {
           <img
             src="/cliff.svg"
             alt="cliff"
-            className="w-full relative z-0 -mt-64"
+            className="w-full relative z-0 md:-mt-64 -mt-60"
           />
         </section>
         <section>
@@ -66,9 +67,10 @@ export default function Home() {
             hundreds of students from around the world will come together
             virtually to learn new skills, meet new friends, and build awesome
             projects. We provide beginner-friendly workshops, mentorship, fun
-            games, and more. The first day of the event will be workshop based
-            where you will get a chance to gain new skills. The second day will
-            be dedicated towards your building your product.
+            games, and more. The first day of the event will be a workshop-based
+            learnathon where you will get a chance to gain new skills. The
+            second day will be dedicated towards your building a project with
+            your team.
           </p>
         </section>
         <section>
@@ -92,30 +94,49 @@ export default function Home() {
               to those who are new to coding and intro workshops to help
               beginner hackers.
             </Question>
+            <Question title="What if I don't have a team?">
+              There will be several team formation opportunities before and
+              during the event. Although working with a team (of 1-4 hackers) is
+              highly encouraged, you may choose to work alone.
+            </Question>
           </div>
         </section>
         <section>
           <h2>Prizes</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
-            <Prize icon="/star.svg" title="Best Overall">
-              You'll each win a Google Home Mini. (Up to 4 team members)
-            </Prize>
-            <Prize icon="/lightbulb.svg" title="Most Creative Idea">
-              You'll each win a Google Home Mini. (Up to 4 team members)
-            </Prize>
-
-            <Prize icon="/globe.svg" title="Best Web Project">
-              You'll each win a Sublime Text License as well as some other
-              random stuff.
-            </Prize>
-            <Prize icon="/phone.svg" title="Best Mobile App">
-              You'll each win a Google Home Mini. (Up to 4 team members)
-            </Prize>
-            <Prize icon="/sparkles.svg" title="Best Workshop Hack">
+            <Card type={2} icon="star" color="orange" heading="Best Overall">
+              Every project submitted will be entered in this category. Winners
+              will each receive a Discord Nitro subscription along with a $50
+              Amazon gift-card.
+            </Card>
+            <Card type={2} icon="pencil" color="red" heading="Most Creative">
+              You'll each win a $20 gift-card along with a one-year license for
+              Sketch, a design platform used by over one million people — from
+              freelancers, to the world’s largest teams.
+            </Card>
+            <Card type={2} icon="globe" color="blue" heading="Best Web App">
+              Create a web application using any technologies of choice for a
+              chance to win a $25 Amazon gift card for each member of your team.
+            </Card>
+            <Card
+              type={2}
+              icon="phone"
+              color="purple"
+              heading="Best Mobile App"
+            >
+              Create a mobile application using any technologies of choice for a
+              chance to win a $25 Amazon gift card for each member of your team.
+            </Card>
+            <Card
+              type={2}
+              icon="sparkles"
+              color="turquoise"
+              heading="Best Workshop Hack"
+            >
               Attend a workshop and base your project off what you learned at
               that workshop. Be sure to tell us which workshop you attended and
               how you took your project further after the workshop.
-            </Prize>
+            </Card>
           </div>
         </section>
         <section>
@@ -191,38 +212,38 @@ export default function Home() {
           <h2>Team</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
             <Person
-              name="Risha"
+              name="Risha Jhangiani"
               role="Lead Organizer."
               pronouns="she/her"
               src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
             />
             <Person
-              name="Marius"
-              role="Hack Clubber."
+              name="Marius Schaefer"
+              role="Social Media."
               pronouns="he/him"
               src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
             />
             <Person
               name="Daniel Katz"
-              role="Hack Clubber."
+              role="Operations."
               pronouns="he/him"
               src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
             />
             <Person
-              name="Daniel S."
-              role="Hack Clubber."
+              name="Daniel Shubin"
+              role="Sponsorships."
               pronouns="he/him"
               src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
             />
             <Person
-              name="Neta"
-              role="Hack Clubber."
+              name="Neta Shubin"
+              role="Outreach."
               pronouns="she/her"
               src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
             />
             <Person
               name="Ella"
-              role="Another Hack Clubber."
+              role="Technology."
               pronouns="she/her"
               src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
             />
