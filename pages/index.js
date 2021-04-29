@@ -212,13 +212,13 @@ export default function Home() {
           <h2>Team</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
             <Person
-              name="Risha"
+              name="Risha Jhangiani"
               role="Lead Organizer."
               pronouns="she/her"
               src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
             />
             <Person
-              name="Marius"
+              name="Marius Schaefer"
               role="Social Media."
               pronouns="he/him"
               src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
@@ -230,13 +230,13 @@ export default function Home() {
               src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
             />
             <Person
-              name="Daniel S."
+              name="Daniel Shubin"
               role="Sponsorships."
               pronouns="he/him"
               src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
             />
             <Person
-              name="Neta"
+              name="Neta Shubin"
               role="Outreach."
               pronouns="she/her"
               src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
