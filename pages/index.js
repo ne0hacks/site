@@ -41,7 +41,7 @@ export default function Home() {
               NeoHacks
             </h1>
             <h3 className="font-fira text-white text-xl md:text-2xl w-2/3 md:w-full">
-              June 25-27, 2021 • Virtual
+              July 23-25, 2021 • Virtual
             </h3>
 
             <motion.button
@@ -63,7 +63,7 @@ export default function Home() {
             Welcome to <span className="font-ramona text-navy">NeoHacks</span>!
           </h2>
           <p className="text-lg ">
-            NeoHacks is a 48-hour hackathon taking place June 25-27, 2021 where
+            NeoHacks is a 48-hour hackathon taking place July 23-25, 2021 where
             hundreds of students from around the world will come together
             virtually to learn new skills, meet new friends, and build awesome
             projects. We provide beginner-friendly workshops, mentorship, fun
