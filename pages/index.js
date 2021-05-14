@@ -14,8 +14,7 @@ import Card from "../components/Card";
 const Sponsors = [
   {
     companyName: "Hack Club Bank",
-    logo:
-      "https://cloud-lsj5acqf8-hack-club-bot.vercel.app/0powered-by-hack-club.png",
+    logo: "https://cloud-lsj5acqf8-hack-club-bot.vercel.app/0powered-by-hack-club.png",
     website: "https://bank.hackclub.com",
   },
 ];
@@ -26,7 +25,7 @@ export default function Home() {
   });
 
   return (
-    <div className="dark:text-white dark:bg-black">
+    <div>
       <HeadObject />
       {/* <Nav /> */}
       <main>
@@ -154,9 +153,13 @@ export default function Home() {
               Know the basics of web development and want to take it further?
               Learn how to set up a database and use it in your project.
             </Workshop>
-            <Workshop title="Intro to React (Next.js)">
-              Learn the basics of react using the Next.js framework to build
-              modern, dynamic websites.
+            <Workshop
+              title="Intro to Next.js (React)"
+              hostName="Sam Poder"
+              hostPfp="https://avatars.githubusercontent.com/u/39828164?v=4"
+            >
+              Learn the basics of Next.js, a React framework to build modern,
+              dynamic websites.
             </Workshop>
             <Workshop title="Intro to Python">
               This workshop serves as a basic introduction to python, a
