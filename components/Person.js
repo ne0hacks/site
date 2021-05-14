@@ -5,10 +5,8 @@ export default function Person({ src, name, role, pronouns }) {
         <img src={src} alt={name} className="rounded-full w-20 h-20" />
       </div>
       <div>
-        <p className="text-2xl text-black dark:text-white font-inter font-bold">
-          {name}
-        </p>
-        <p className="text-gray-500 dark:text-white text-lg font-inter">
+        <p className="text-2xl text-black font-inter font-bold">{name}</p>
+        <p className="text-gray-500 text-lg font-inter">
           {role} <span className="text-blue-500 font-inter">{pronouns}</span>
         </p>
       </div>
