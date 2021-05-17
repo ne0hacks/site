@@ -246,7 +246,7 @@ export default function Home() {
             />
             <Person
               name="Ella"
-              role="Technology."
+              role="Branding."
               pronouns="she/her"
               src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
             />
