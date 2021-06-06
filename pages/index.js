@@ -40,7 +40,7 @@ export default function Home() {
               NeoHacks
             </h1>
             <h3 className="font-fira text-white text-xl md:text-2xl w-2/3 md:w-full">
-              July 23-25, 2021 • Virtual
+              July 30 - Aug 1, 2021 • Virtual
             </h3>
 
             <motion.button
