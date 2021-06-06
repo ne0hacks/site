@@ -3,7 +3,7 @@ import Head from "next/head";
 export default function HeadObject({ children }) {
   const title = "NeoHacks | Virtual";
   const description =
-    "NeoHacks is a beginner friendly virtual hackathon coming in July 2021.";
+    "NeoHacks is a beginner friendly virtual hackathon taking place on July 30 - August 1, 2021.";
   const keywords = "hackathon, code, stem, hack, beginner";
   const author = "NeoHacks";
   const twitter = "@neohacks";
@@ -26,7 +26,6 @@ export default function HeadObject({ children }) {
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content={twitter} />
       <meta name="twitter:creator" content={twitter} />
-      {/* Add analytics here */}
       {children}
     </Head>
   );
