@@ -62,8 +62,8 @@ export default function Home() {
             Welcome to <span className="font-ramona text-navy">NeoHacks</span>!
           </h2>
           <p className="text-lg ">
-            NeoHacks is a 48-hour hackathon taking place July 23-25, 2021 where
-            hundreds of students from around the world will come together
+            NeoHacks is a 48-hour hackathon taking place July 30 - Aug 1, 2021
+            where hundreds of students from around the world will come together
             virtually to learn new skills, meet new friends, and build awesome
             projects. We provide beginner-friendly workshops, mentorship, fun
             games, and more. The first day of the event will be a workshop-based
@@ -149,17 +149,27 @@ export default function Home() {
               Learn how to use Figma, a free design and prototyping software, to
               develop the UI for your project.
             </Workshop>
-            <Workshop title="Intro to Databases">
-              Know the basics of web development and want to take it further?
-              Learn how to set up a database and use it in your project.
+            <Workshop title="Intro to Git/GitHub">
+              Learn the basics of Git and GitHub, a useful tool every developer
+              should be familiar with. At the end of the workshop, you will be
+              able to create your first pull request.
             </Workshop>
             <Workshop
               title="Intro to Next.js (React)"
               hostName="Sam Poder"
-              hostPfp="https://avatars.githubusercontent.com/u/39828164?v=4"
+              hostPfp="https://github.com/sampoder.png"
             >
               Learn the basics of Next.js, a React framework to build modern,
               dynamic websites.
+            </Workshop>
+            <Workshop
+              title="Expansion 101"
+              hostName="Galicia Gordon"
+              hostPfp="https://github.com/galiciagordon.png"
+            >
+              Attend the Expansion 101 Workshop to learn about Galicia's tips
+              for team formation and project brainstorming session to find a
+              team and project that inspires you to build something great.
             </Workshop>
             <Workshop title="Intro to Python">
               This workshop serves as a basic introduction to python, a

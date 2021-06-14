@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 const links = [
-  { name: "Press Kit", href: "/" },
-  { name: "Sponsor Deck", href: "/" },
+  { name: "Press Kit", href: "/NeoHacksProspectus.pdf" },
+  { name: "Sponsor Deck", href: "/NeoHacksProspectus.pdf" },
   {
     name: "Donate",
     href: "https://bank.hackclub.com/donations/start/neohacks",

@@ -10,7 +10,7 @@ export default function Workshop({ title, children, hostPfp, hostName }) {
             alt="Workshop Host"
             className="w-7 h-7 rounded-full"
           />
-          <p className="font-inter font-semibold">@{hostName}</p>
+          <p className="font-inter font-medium">Hosted by {hostName}</p>
         </div>
       )}
     </div>
