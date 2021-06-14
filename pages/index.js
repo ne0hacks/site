@@ -228,37 +228,37 @@ export default function Home() {
               name="Risha Jhangiani"
               role="Lead Organizer."
               pronouns="she/her"
-              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              src="https://github.com/rishadjhangiani.png"
             />
             <Person
               name="Marius Schaefer"
               role="Social Media."
               pronouns="he/him"
-              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              src="https://github.com/marius-schaefer.png"
             />
             <Person
               name="Daniel Katz"
               role="Operations."
               pronouns="he/him"
-              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              src="https://github.com/minimachines.png"
             />
             <Person
               name="Daniel Shubin"
               role="Sponsorships."
               pronouns="he/him"
-              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              src="https://github.com/minimachines.png"
             />
             <Person
               name="Neta Shubin"
               role="Outreach."
               pronouns="she/her"
-              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              src="https://github.com/minimachines.png"
             />
             <Person
               name="Ella"
               role="Branding."
               pronouns="she/her"
-              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              src="https://github.com/eilla1.png"
             />
           </div>
         </section>
