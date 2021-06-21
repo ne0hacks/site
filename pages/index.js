@@ -1,15 +1,15 @@
 import { useEffect } from "react";
-import Link from "next/link";
+// import Link from "next/link";
 import HeadObject from "../components/head";
 import { motion } from "framer-motion";
-// import Nav from "../components/nav";
 import Question from "../components/Question";
 import Person from "../components/Person";
 import Footer from "../components/Footer";
-import Prize from "../components/Prize";
+// import Prize from "../components/Prize";
 import Workshop from "../components/Workshop";
 import Sponsor from "../components/Sponsor";
 import Card from "../components/Card";
+import Announcement from "../components/Announcement";
 
 const Sponsors = [
   {
@@ -27,8 +27,10 @@ export default function Home() {
   return (
     <div>
       <HeadObject />
-      {/* <Nav /> */}
       <main>
+        <div className="hidden lg:block lg:absolute lg:left-1/4 lg:right-1/4 lg:mt-8">
+          <Announcement />
+        </div>
         <section className="bg-navy m-0">
           <motion.div
             initial={{ x: -300, opacity: 0 }}
