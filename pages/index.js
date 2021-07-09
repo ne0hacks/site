@@ -143,15 +143,27 @@ export default function Home() {
         <section>
           <h2>Workshops</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
-            <Workshop title="Intro to HTML/CSS">
+            <Workshop
+              title="Intro to HTML/CSS"
+              hostName="Farhan Ashraf"
+              hostPfp="https://github.com/ghost.png"
+            >
               This workshop serves as an introduction to web development with
               HTML and CSS.
             </Workshop>
-            <Workshop title="Intro to Figma">
+            <Workshop
+              title="Intro to Figma"
+              hostName="Raghav Poddar"
+              hostPfp="https://cdn.discordapp.com/attachments/820189023384633344/862941798803963925/unknown.png"
+            >
               Learn how to use Figma, a free design and prototyping software, to
               develop the UI for your project.
             </Workshop>
-            <Workshop title="Intro to Git/GitHub">
+            <Workshop
+              title="Intro to Git/GitHub"
+              hostName="Dmytro Budym"
+              hostPfp="https://github.com/ghost.png"
+            >
               Learn the basics of Git and GitHub, a useful tool every developer
               should be familiar with. At the end of the workshop, you will be
               able to create your first pull request.
@@ -173,10 +185,23 @@ export default function Home() {
               for team formation and project brainstorming session to find a
               team and project that inspires you to build something great.
             </Workshop>
-            <Workshop title="Intro to Python">
+            <Workshop
+              title="Intro to Python"
+              hostName="Rebecca Wang"
+              hostPfp="https://github.com/rebeccawang06.png"
+            >
               This workshop serves as a basic introduction to python, a
               powerful, general-purpose programming language with a diverse
               range of applications.
+            </Workshop>
+            <Workshop
+              title="Intro to AI &amp; ML"
+              hostName="Shafin Haque"
+              hostPfp="https://raw.githubusercontent.com/App-Dev-League/app-dev-league.github.io/main/assets/img/team/shafin.png"
+            >
+              This workshop will cover the basics of AI / Machine Learning
+              focusing on machine learning models. After this workshop, you will
+              be able to create a machine learning model to make a prediction.
             </Workshop>
           </div>
         </section>
@@ -238,12 +263,7 @@ export default function Home() {
               pronouns="he/him"
               src="https://github.com/marius-schaefer.png"
             />
-            <Person
-              name="Daniel Katz"
-              role="Operations."
-              pronouns="he/him"
-              src="https://github.com/minimachines.png"
-            />
+
             <Person
               name="Daniel Shubin"
               role="Sponsorships."
@@ -255,12 +275,6 @@ export default function Home() {
               role="Outreach."
               pronouns="she/her"
               src="https://github.com/minimachines.png"
-            />
-            <Person
-              name="Ella"
-              role="Branding."
-              pronouns="she/her"
-              src="https://github.com/eilla1.png"
             />
           </div>
         </section>
