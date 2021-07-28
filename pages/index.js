@@ -17,6 +17,11 @@ const Sponsors = [
     logo: "https://cloud-lsj5acqf8-hack-club-bot.vercel.app/0powered-by-hack-club.png",
     website: "https://bank.hackclub.com",
   },
+  {
+    companyName: "Slingshot",
+    logo: "/logos/slingshot.png",
+    website: "https://slingshotahead.com",
+  },
 ];
 
 export default function Home() {
@@ -70,8 +75,8 @@ export default function Home() {
             projects. We provide beginner-friendly workshops, mentorship, fun
             games, and more. The first day of the event will be a workshop-based
             learnathon where you will get a chance to gain new skills. The
-            second day will be dedicated towards your building a project with
-            your team.
+            second day will be dedicated towards building a project with your
+            team.
           </p>
         </section>
         <section>
@@ -203,6 +208,24 @@ export default function Home() {
               focusing on machine learning models. After this workshop, you will
               be able to create a machine learning model to make a prediction.
             </Workshop>
+            <Workshop
+              title="Intro to App Dev"
+              hostName="Kunal Jain"
+              hostPfp="https://github.com/ghost.png"
+            >
+              The workshop is going to be a gentle introduction into MIT App
+              Inventor. By the end, attendees will have developed a simple app
+              and have set up an emulator to test apps in the future.
+            </Workshop>
+            <Workshop
+              title="Intro to Machine Learning w/ Kobra"
+              hostName="Benjamin Smith &amp; Pranav Teegavarapu"
+              hostPfp="https://github.com/kobra-dev.png"
+            >
+              Learn the basics of ML using Kobra, a visual programming language
+              for machine learning. By the end, you will be able to build and
+              deploy your own model with Kobra.
+            </Workshop>
           </div>
         </section>
         <section>
@@ -211,6 +234,7 @@ export default function Home() {
             {Sponsors.map(({ logo, companyName, website }) => {
               return (
                 <Sponsor
+                  key={companyName}
                   logo={logo}
                   companyName={companyName}
                   website={website}
@@ -219,35 +243,7 @@ export default function Home() {
             })}
           </div>
         </section>
-        <section>
-          {/* <h2>Judges</h2>
-          <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
-            <Person
-              name="Guillermo Rauch"
-              role="Founder of Vercel."
-              pronouns="he/him"
-              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
-            />
-            <Person
-              name="Guillermo Rauch"
-              role="Founder of Vercel."
-              pronouns="he/him"
-              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
-            />
-            <Person
-              name="Guillermo Rauch"
-              role="Founder of Vercel."
-              pronouns="he/him"
-              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
-            />
-            <Person
-              name="Guillermo Rauch"
-              role="Founder of Vercel."
-              pronouns="he/him"
-              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
-            />
-          </div> */}
-        </section>
+
         <section>
           <h2>Team</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
