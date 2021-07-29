@@ -5,6 +5,10 @@ const links = [
     name: "Schedule",
     href: "https://docs.google.com/document/d/e/2PACX-1vR1O8A_iXcK8fQU053jixHVZf3XPC5LoXaFOXXhl0nKRwfIkjURlW8JVwO9LYaFdXqhbDJEbcEglFoZ/pub",
   },
+  {
+    name: "Discord",
+    href: "/discord",
+  },
   { name: "Sponsor Deck", href: "/NeoHacksProspectus.pdf" },
   {
     name: "Donate",
