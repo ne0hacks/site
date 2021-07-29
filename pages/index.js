@@ -143,6 +143,11 @@ export default function Home() {
               that workshop. Be sure to tell us which workshop you attended and
               how you took your project further after the workshop.
             </Card>
+            <Card type={2} icon="globe" color="navy" heading="Qoom Challenge">
+              Build a hack using the Qoom platform to be eligible to win a
+              1-year Qoom Pro plan package valued at $140. Winners will also be
+              featured in the Qoom project gallery!
+            </Card>
           </div>
         </section>
         <section>

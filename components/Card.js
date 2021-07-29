@@ -19,6 +19,7 @@ export default function Card({
       green: "#10B981",
       blue: "#69709F",
       turquoise: "#2CDAC5",
+      navy: "#000080",
     };
     const heading = document.querySelector(`#cardfour${idval ?? ``}`);
     if (heading != null) heading.style.color = colors[color];
