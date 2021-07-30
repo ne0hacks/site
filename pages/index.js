@@ -111,18 +111,13 @@ export default function Home() {
           <h2>Prizes</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
             <Card type={2} icon="star" color="orange" heading="Best Overall">
-              Every project submitted will be entered in this category. Winners
-              will each receive a Discord Nitro subscription along with a $50
-              Amazon gift-card.
+              Every project submitted will be entered in this category. Winners will each receive a mystery prize!
             </Card>
             <Card type={2} icon="pencil" color="red" heading="Most Creative">
-              You'll each win a $20 gift-card along with a one-year license for
-              Sketch, a design platform used by over one million people — from
-              freelancers, to the world’s largest teams.
+              Make your wildest ideas a reality and earn the best creative prize to win a $50 Amazon gift card for your team. (Subject to change)
             </Card>
             <Card type={2} icon="globe" color="blue" heading="Best Web App">
-              Create a web application using any technologies of choice for a
-              chance to win a $25 Amazon gift card for each member of your team.
+              Create a web application using any technologies of choice for a chance to win a $50 Amazon gift card for your team. (Subject to change)
             </Card>
             <Card
               type={2}
@@ -130,8 +125,7 @@ export default function Home() {
               color="purple"
               heading="Best Mobile App"
             >
-              Create a mobile application using any technologies of choice for a
-              chance to win a $25 Amazon gift card for each member of your team.
+              Create a mobile application using any technologies of choice for a chance to win a $50 Amazon gift card for your team. (Subject to change)
             </Card>
             <Card
               type={2}
@@ -143,10 +137,8 @@ export default function Home() {
               that workshop. Be sure to tell us which workshop you attended and
               how you took your project further after the workshop.
             </Card>
-            <Card type={2} icon="globe" color="navy" heading="Qoom Challenge">
-              Build a hack using the Qoom platform to be eligible to win a
-              1-year Qoom Pro plan package valued at $140. Winners will also be
-              featured in the Qoom project gallery!
+            <Card type={2} icon="globe" color="navy" heading="Best Web App with Qoom Challenge">
+              Sponsored by Qoom- Teams must use the Qoom platform to be eligible for this prize. The prizes include: • 1-year Pro Plan package (one per team)- This has a value of $140 • Feature on Qoom Project Gallery (https://www.qoom.io/projects)
             </Card>
           </div>
         </section>
