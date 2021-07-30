@@ -172,7 +172,7 @@ export default function Home() {
             <Workshop
               title="Intro to Git/GitHub"
               hostName="Dmytro Budym"
-              hostPfp="https://github.com/ghost.png"
+              hostPfp="https://cloud-17ec4f90s-hack-club-bot.vercel.app/0image__1_.jpeg"
             >
               Learn the basics of Git and GitHub, a useful tool every developer
               should be familiar with. At the end of the workshop, you will be
