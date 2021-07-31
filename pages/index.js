@@ -134,16 +134,6 @@ export default function Home() {
             >
               Create a mobile application using any technologies of choice for a chance to win a $50 Amazon gift card for your team. (Subject to change)
             </Card>
-            <Card
-              type={2}
-              icon="sparkles"
-              color="turquoise"
-              heading="Best Workshop Hack"
-            >
-              Attend a workshop and base your project off what you learned at
-              that workshop. Be sure to tell us which workshop you attended and
-              how you took your project further after the workshop.
-            </Card>
             <Card type={2} icon="globe" color="navy" heading="Best Web App with Qoom Challenge">
               Sponsored by Qoom- Teams must use the Qoom platform to be eligible for this prize. The prizes include: • 1-year Pro Plan package (one per team)- This has a value of $140 • Feature on Qoom Project Gallery (https://www.qoom.io/projects)
             </Card>
