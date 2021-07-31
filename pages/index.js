@@ -22,6 +22,11 @@ const Sponsors = [
     logo: "/logos/slingshot.png",
     website: "https://slingshotahead.com",
   },
+  { 
+    companyName: "Qoom",
+    logo: "https://cloud-dqudt01co-hack-club-bot.vercel.app/0qoom-logo-official.png",
+    website: "https://www.qoom.io/",
+  },
 ];
 
 export default function Home() {
