@@ -27,6 +27,11 @@ const Sponsors = [
     logo: "https://cloud-dqudt01co-hack-club-bot.vercel.app/0qoom-logo-official.png",
     website: "https://www.qoom.io/",
   },
+  { 
+    companyName: "StickerMule",
+    logo: "/sticker-mule-logo-light-bg.svg",
+    website: "https://www.stickermule.com/",
+  },
 ];
 
 export default function Home() {
