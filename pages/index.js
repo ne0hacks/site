@@ -29,7 +29,7 @@ const Sponsors = [
   },
   { 
     companyName: "StickerMule",
-    logo: "/sticker-mule-logo-light-bg.svg",
+    logo: "/logos/sticker-mule-logo-light-bg.svg",
     website: "https://www.stickermule.com/",
   },
 ];
