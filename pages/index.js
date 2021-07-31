@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 import Workshop from "../components/Workshop";
 import Sponsor from "../components/Sponsor";
 import Card from "../components/Card";
-import Announcement from "../components/Announcement";
+// import Announcement from "../components/Announcement";
 
 const Sponsors = [
   {
@@ -43,9 +43,6 @@ export default function Home() {
     <div>
       <HeadObject />
       <main>
-        <div className="hidden lg:block lg:absolute lg:left-1/4 lg:right-1/4 lg:mt-8">
-          <Announcement />
-        </div>
         <section className="bg-navy m-0">
           <motion.div
             initial={{ x: -300, opacity: 0 }}
