@@ -7,8 +7,8 @@ module.exports = {
         permanent: true,
       },
       {
-        source: "/zoom",
-        destination: "https://neohacks.org",
+        source: "/swag",
+        destination: "https://airtable.com/shrtQpODs432o5yeo",
         permanent: true,
       },
     ];
