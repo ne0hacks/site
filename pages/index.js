@@ -115,16 +115,16 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <h2>Prizes</h2>
+          <h2>Prize Tracks</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
             <Card type={2} icon="star" color="orange" heading="Best Overall">
-              Every project submitted will be entered in this category. Winners will each receive a mystery prize!
+              Every project submitted will be entered in this category.
             </Card>
             <Card type={2} icon="pencil" color="red" heading="Most Creative">
-              Make your wildest ideas a reality and earn the best creative prize to win a $50 Amazon gift card for your team. (Subject to change)
+              Make your wildest ideas a reality and earn the best creative prize to win a gift card for your team!
             </Card>
             <Card type={2} icon="globe" color="blue" heading="Best Web App">
-              Create a web application using any technologies of choice for a chance to win a $50 Amazon gift card for your team. (Subject to change)
+              Create a web application using any technologies of choice for a chance to win a gift card!
             </Card>
             <Card
               type={2}
@@ -132,7 +132,7 @@ export default function Home() {
               color="purple"
               heading="Best Mobile App"
             >
-              Create a mobile application using any technologies of choice for a chance to win a $50 Amazon gift card for your team. (Subject to change)
+              Create a mobile application using any technologies of choice for a chance to win a gift card for your team. (Subject to change)
             </Card>
             <Card type={2} icon="globe" color="navy" heading="Best Web App with Qoom Challenge">
               Sponsored by Qoom- Teams must use the Qoom platform to be eligible for this prize. The prizes include: • 1-year Pro Plan package (one per team)- This has a value of $140 • Feature on Qoom Project Gallery (https://www.qoom.io/projects)
