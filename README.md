@@ -9,6 +9,6 @@
 - `framer-motion` - for making interactive components and eye-catching animations
 - `react-icons` - for including your favorite icon packs without increasing bundle size significantly. Tree shaking included.
 
-Site designed by [@sarthaktexas](https://srtk.me) & [@eilla1](https://github.com/eilla1).
+Site designed by [@sarthaktexas](https://srtk.me) & [@exu3](https://github.com/exu3).
 
 Licensed under Apache License, Version 2.0.
