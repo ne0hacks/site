@@ -22,12 +22,12 @@ const Sponsors = [
     logo: "/logos/slingshot.png",
     website: "https://slingshotahead.com",
   },
-  { 
+  {
     companyName: "Qoom",
     logo: "https://cloud-dqudt01co-hack-club-bot.vercel.app/0qoom-logo-official.png",
     website: "https://www.qoom.io/",
   },
-  { 
+  {
     companyName: "StickerMule",
     logo: "/logos/sticker-mule-logo-light-bg.svg",
     website: "https://www.stickermule.com/",
@@ -43,24 +43,24 @@ export default function Home() {
     <div>
       <HeadObject />
       <main>
-        <section className="bg-navy m-0">
+        <section className="m-0 bg-navy">
           <motion.div
             initial={{ x: -300, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
-            className="p-12 pb-16 md:p-24 flex flex-col space-y-5 md:pt-48 relative z-50"
+            className="relative z-50 flex flex-col p-12 pb-16 space-y-5 md:p-24 md:pt-48"
           >
-            <h1 className="text-5xl md:text-8xl font-black text-white font-ramona">
+            <h1 className="text-5xl font-black text-white md:text-8xl font-ramona">
               NeoHacks
             </h1>
-            <h3 className="font-fira text-white text-xl md:text-2xl w-2/3 md:w-full">
+            <h3 className="w-2/3 text-xl text-white font-fira md:text-2xl md:w-full">
               July 30 - Aug 1, 2021 • Virtual
             </h3>
 
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              className="rounded-full bg-white font-inter text-base md:text-lg font-medium p-2 px-6 w-min"
+              className="p-2 px-6 text-base font-medium bg-white rounded-full font-inter md:text-lg w-min"
             >
               <a href="https://airtable.com/shrhuP6sBAWskOiqT">Register</a>
             </motion.button>
@@ -68,11 +68,11 @@ export default function Home() {
           <img
             src="/cliff.svg"
             alt="cliff"
-            className="w-full relative z-0 md:-mt-64 -mt-60"
+            className="relative z-0 w-full md:-mt-64 -mt-60"
           />
         </section>
         <section>
-          <h2 className="md:leading-loose pb-4 md:pb-0">
+          <h2 className="pb-4 md:leading-loose md:pb-0">
             Welcome to <span className="font-ramona text-navy">NeoHacks</span>!
           </h2>
           <p className="text-lg ">
@@ -88,7 +88,7 @@ export default function Home() {
         </section>
         <section>
           <h2>FAQ</h2>
-          <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 gap-10 mt-4 md:grid-cols-2">
             <Question title="Where is this held?">
               Due to COVID-19, NeoHacks is completely virtual and will take
               place on Zoom and Discord.
@@ -116,15 +116,17 @@ export default function Home() {
         </section>
         <section>
           <h2>Prize Tracks</h2>
-          <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 gap-10 mt-4 md:grid-cols-2">
             <Card type={2} icon="star" color="orange" heading="Best Overall">
               Every project submitted will be entered in this category.
             </Card>
             <Card type={2} icon="pencil" color="red" heading="Most Creative">
-              Make your wildest ideas a reality and earn the best creative prize to win a gift card for your team!
+              Make your wildest ideas a reality and earn the best creative prize
+              to win a gift card for your team!
             </Card>
             <Card type={2} icon="globe" color="blue" heading="Best Web App">
-              Create a web application using any technologies of choice for a chance to win a gift card!
+              Create a web application using any technologies of choice for a
+              chance to win a gift card!
             </Card>
             <Card
               type={2}
@@ -132,20 +134,29 @@ export default function Home() {
               color="purple"
               heading="Best Mobile App"
             >
-              Create a mobile application using any technologies of choice for a chance to win a gift card for your team. (Subject to change)
+              Create a mobile application using any technologies of choice for a
+              chance to win a gift card for your team. (Subject to change)
             </Card>
-            <Card type={2} icon="globe" color="navy" heading="Best Web App with Qoom Challenge">
-              Sponsored by Qoom- Teams must use the Qoom platform to be eligible for this prize. The prizes include: • 1-year Pro Plan package (one per team)- This has a value of $140 • Feature on Qoom Project Gallery (https://www.qoom.io/projects)
+            <Card
+              type={2}
+              icon="globe"
+              color="navy"
+              heading="Best Web App with Qoom Challenge"
+            >
+              Sponsored by Qoom- Teams must use the Qoom platform to be eligible
+              for this prize. The prizes include: • 1-year Pro Plan package (one
+              per team)- This has a value of $140 • Feature on Qoom Project
+              Gallery (https://www.qoom.io/projects)
             </Card>
           </div>
         </section>
         <section>
           <h2>Workshops</h2>
-          <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 gap-10 mt-4 md:grid-cols-2">
             <Workshop
               title="Intro to HTML/CSS"
               hostName="Farhan Ashraf"
-              hostPfp="https://github.com/ghost.png"
+              hostPfp="https://ca.slack-edge.com/T0266FRGM-U01UJAYQBL0-2219100ca9ee-512"
             >
               This workshop serves as an introduction to web development with
               HTML and CSS.
@@ -187,7 +198,7 @@ export default function Home() {
             <Workshop
               title="Intro to Python"
               hostName="Rebecca Wang"
-              hostPfp="https://github.com/rebeccawang06.png"
+              hostPfp="https://github.com/rbccwang.png"
             >
               This workshop serves as a basic introduction to python, a
               powerful, general-purpose programming language with a diverse
@@ -240,7 +251,7 @@ export default function Home() {
 
         <section>
           <h2>Team</h2>
-          <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 gap-10 mt-4 md:grid-cols-2">
             <Person
               name="Risha Jhangiani"
               role="Lead Organizer."
