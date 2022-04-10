@@ -13,11 +13,6 @@ import Card from "../components/Card";
 
 const Sponsors = [
   {
-    companyName: "Hack Club Bank",
-    logo: "https://cloud-lsj5acqf8-hack-club-bot.vercel.app/0powered-by-hack-club.png",
-    website: "https://bank.hackclub.com",
-  },
-  {
     companyName: "Slingshot",
     logo: "/logos/slingshot.png",
     website: "https://slingshotahead.com",
