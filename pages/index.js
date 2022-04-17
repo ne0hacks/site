@@ -39,7 +39,7 @@ export default function Home() {
               NeoHacks
             </h1>
             <h3 className="w-2/3 text-xl text-white font-fira md:text-2xl md:w-full">
-              July 30 - Aug 1, 2021 • Virtual
+              August 6, 2022 &middot; Hybrid
             </h3>
 
             <motion.button
