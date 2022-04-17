@@ -71,8 +71,8 @@ export default function Home() {
             Welcome to <span className="font-ramona text-navy">NeoHacks</span>!
           </h2>
           <p className="text-lg ">
-            NeoHacks is a 48-hour hackathon taking place July 30 - Aug 1, 2021
-            where hundreds of students from around the world will come together
+            NeoHacks is a 48-hour hackathon taking place on August 6th where
+            hundreds of students from around the world will come together
             virtually to learn new skills, meet new friends, and build awesome
             projects. We provide beginner-friendly workshops, mentorship, fun
             games, and more. The first day of the event will be a workshop-based
@@ -85,8 +85,9 @@ export default function Home() {
           <h2>FAQ</h2>
           <div className="grid grid-cols-1 gap-10 mt-4 md:grid-cols-2">
             <Question title="Where is this held?">
-              Due to COVID-19, NeoHacks is completely virtual and will take
-              place on Zoom and Discord.
+              NeoHacks is a hybrid hackathon. The in-person event will take
+              place in Seattle, Washignton. Location TBD. Participants may also
+              join us virtually on Discord.
             </Question>
             <Question title="What is a hackathon?">
               A hackathon is a great place to learn new skills, make new
@@ -94,8 +95,8 @@ export default function Home() {
               turn in a project for feedback from judges.
             </Question>
             <Question title="Who is eligible to participate?">
-              This hackathon is open to anyone regardless of their identity. We
-              highly encourage beginners to participate!
+              This hackathon is all high school students. We highly encourage
+              beginners to participate!
             </Question>
             <Question title="How can I prepare for a hackathon?">
               No advanced preparation is necessary! We have workshops tailored
@@ -123,29 +124,9 @@ export default function Home() {
               Create a web application using any technologies of choice for a
               chance to win a gift card!
             </Card>
-            <Card
-              type={2}
-              icon="phone"
-              color="purple"
-              heading="Best Mobile App"
-            >
-              Create a mobile application using any technologies of choice for a
-              chance to win a gift card for your team. (Subject to change)
-            </Card>
-            <Card
-              type={2}
-              icon="globe"
-              color="navy"
-              heading="Best Web App with Qoom Challenge"
-            >
-              Sponsored by Qoom- Teams must use the Qoom platform to be eligible
-              for this prize. The prizes include: • 1-year Pro Plan package (one
-              per team)- This has a value of $140 • Feature on Qoom Project
-              Gallery (https://www.qoom.io/projects)
-            </Card>
           </div>
         </section>
-        <section>
+        {/* <section>
           <h2>Workshops</h2>
           <div className="grid grid-cols-1 gap-10 mt-4 md:grid-cols-2">
             <Workshop
@@ -227,7 +208,7 @@ export default function Home() {
               deploy your own model with Kobra.
             </Workshop>
           </div>
-        </section>
+        </section> */}
         <section>
           <h2 className="pb-4">Sponsors</h2>
           <div className="grid grid-cols-2 md:grid-cols-4">
@@ -255,20 +236,19 @@ export default function Home() {
             />
             <Person
               name="Marius Schaefer"
-              role="Social Media."
+              role="Finance."
               pronouns="he/him"
               src="https://github.com/marius-schaefer.png"
             />
-
             <Person
               name="Daniel Shubin"
-              role="Sponsorships."
+              role="Marketing."
               pronouns="he/him"
               src="https://github.com/minimachines.png"
             />
             <Person
               name="Neta Shubin"
-              role="Outreach."
+              role="Hacker Experience."
               pronouns="she/her"
               src="https://github.com/minimachines.png"
             />

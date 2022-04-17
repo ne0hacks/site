@@ -2,8 +2,7 @@ import Head from "next/head";
 
 export default function HeadObject({ children }) {
   const title = "NeoHacks | Virtual";
-  const description =
-    "NeoHacks is a beginner friendly virtual hackathon taking place on July 30 - August 1, 2021.";
+  const description = "NeoHacks is a beginner-friendly high school hackathon.";
   const keywords = "hackathon, code, stem, hack, beginner";
   const author = "NeoHacks";
   const twitter = "@neohacks";
@@ -22,7 +21,7 @@ export default function HeadObject({ children }) {
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
-      <meta name="twitter:card"  content="summary_large_image" />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content={twitter} />
       <meta name="twitter:creator" content={twitter} />
       {children}
