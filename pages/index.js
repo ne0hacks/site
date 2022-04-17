@@ -13,17 +13,7 @@ import Card from "../components/Card";
 
 const Sponsors = [
   {
-    companyName: "Slingshot",
-    logo: "/logos/slingshot.png",
-    website: "https://slingshotahead.com",
-  },
-  {
-    companyName: "Qoom",
-    logo: "https://cloud-dqudt01co-hack-club-bot.vercel.app/0qoom-logo-official.png",
-    website: "https://www.qoom.io/",
-  },
-  {
-    companyName: "StickerMule",
+    companyName: "Sticker Mule",
     logo: "/logos/sticker-mule-logo-light-bg.svg",
     website: "https://www.stickermule.com/",
   },
@@ -209,7 +199,8 @@ export default function Home() {
             </Workshop>
           </div>
         </section> */}
-        <section>
+
+        {/* <section>
           <h2 className="pb-4">Sponsors</h2>
           <div className="grid grid-cols-2 md:grid-cols-4">
             {Sponsors.map(({ logo, companyName, website }) => {
@@ -223,7 +214,7 @@ export default function Home() {
               );
             })}
           </div>
-        </section>
+        </section> */}
 
         <section>
           <h2>Team</h2>

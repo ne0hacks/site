@@ -2,10 +2,6 @@ import Link from "next/link";
 
 const links = [
   {
-    name: "Schedule",
-    href: "https://docs.google.com/document/d/e/2PACX-1vR1O8A_iXcK8fQU053jixHVZf3XPC5LoXaFOXXhl0nKRwfIkjURlW8JVwO9LYaFdXqhbDJEbcEglFoZ/pub",
-  },
-  {
     name: "Discord",
     href: "/discord",
   },
@@ -21,18 +17,18 @@ export default function Footer() {
   return (
     <footer
       id="footer"
-      className="mt-32 text-black font-inter font-semibold uppercase text-center pb-6"
+      className="pb-6 mt-32 font-semibold text-center text-black uppercase font-inter"
     >
       <ul
         id="footernav"
-        className="mb-10 flex flex-col md:flex-row space-y-6 md:space-x-12 md:space-y-0 md:w-screen text-xl justify-center items-center"
+        className="flex flex-col items-center justify-center mb-10 space-y-6 text-xl md:flex-row md:space-x-12 md:space-y-0 md:w-screen"
       >
         {links.map(({ name, href }) => (
           <li className="li-none" key={name}>
             <Link href={href ?? ``}>
               <a
                 target="_blank"
-                className="hover:bg-black hover:bg-opacity-5 px-4 py-2 rounded-xl"
+                className="px-4 py-2 hover:bg-black hover:bg-opacity-5 rounded-xl"
               >
                 {name ?? ``}
               </a>
@@ -40,8 +36,8 @@ export default function Footer() {
           </li>
         ))}
       </ul>
-      <h1 className="opacity-60 px-6 md:px-4 text-base">
-        copyright neohacks {new Date().getFullYear()} all rights reserved
+      <h1 className="px-6 text-base opacity-60 md:px-4">
+        copyright NeoHacks 2021 - {new Date().getFullYear()} all rights reserved
       </h1>
     </footer>
   );
