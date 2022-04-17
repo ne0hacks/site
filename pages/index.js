@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-// import Link from "next/link";
+import Link from "next/link";
 import HeadObject from "../components/head";
 import { motion } from "framer-motion";
 import Question from "../components/Question";
@@ -47,7 +47,7 @@ export default function Home() {
               whileTap={{ scale: 0.9 }}
               className="p-2 px-6 text-base font-medium bg-white rounded-full font-inter md:text-lg w-min"
             >
-              <a href="https://airtable.com/shrhuP6sBAWskOiqT">Register</a>
+              <Link href="/register">Register</Link>
             </motion.button>
           </motion.div>
           <img
