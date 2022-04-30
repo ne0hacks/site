@@ -61,7 +61,7 @@ export default function Home() {
             Welcome to <span className="font-ramona text-navy">NeoHacks</span>!
           </h2>
           <p className="text-lg ">
-            NeoHacks is a 48-hour hackathon taking place on August 6th where
+            NeoHacks is a 36-hour hackathon taking place on August 6th where
             hundreds of students from around the world will come together
             virtually to learn new skills, meet new friends, and build awesome
             projects. We provide beginner-friendly workshops, mentorship, fun
