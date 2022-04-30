@@ -243,6 +243,30 @@ export default function Home() {
               pronouns="she/her"
               src="https://github.com/minimachines.png"
             />
+            <Person
+              name="Victor Demunck"
+              role="Finance."
+              pronouns=""
+              src="https://ca.slack-edge.com/T0391D4LXF1-U039KNJFFPD-298f0625fbad-512"
+            />
+            <Person
+              name="Alejandro AB"
+              role="Marketing."
+              pronouns=""
+              src="https://ca.slack-edge.com/T0391D4LXF1-U03A8G7CF5W-e880107dfe2a-512"
+            />
+            <Person
+              name="Carter Oxford"
+              role="Logistics."
+              pronouns=""
+              src="https://ca.slack-edge.com/T0391D4LXF1-U039W7CJTLL-11c5f9e6cccc-512"
+            />
+            <Person
+              name="Bai Xue"
+              role="Finance."
+              pronouns=""
+              src="https://ca.slack-edge.com/T0391D4LXF1-U039FB5AHMK-2d26f9e8e824-512"
+            />
           </div>
         </section>
       </main>

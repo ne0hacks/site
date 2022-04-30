@@ -7,7 +7,7 @@ module.exports = {
         permanent: true,
       },
       {
-        source: "/register/",
+        source: "/register",
         destination: "https://airtable.com/shrhuP6sBAWskOiqT",
         permanent: false,
       },
