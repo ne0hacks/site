@@ -3,7 +3,7 @@ module.exports = {
     return [
       {
         source: "/discord",
-        destination: "https://discord.gg/xDTNE4yKqu",
+        destination: "https://discord.gg/dnHyG499Qu",
         permanent: true,
       },
       {
