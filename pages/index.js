@@ -39,7 +39,7 @@ export default function Home() {
               NeoHacks
             </h1>
             <h3 className="w-2/3 text-xl text-white font-fira md:text-2xl md:w-full">
-              August 6, 2022 &middot; Hybrid
+              August 6-7th, 2022 &middot; Hybrid
             </h3>
 
             <motion.button
@@ -47,7 +47,7 @@ export default function Home() {
               whileTap={{ scale: 0.9 }}
               className="p-2 px-6 text-base font-medium bg-white rounded-full font-inter md:text-lg w-min"
             >
-              <Link href="/register">Register</Link>
+              <Link href="https://airtable.com/shrshwlldsgdG9GVs">Register</Link>
             </motion.button>
           </motion.div>
           <img
@@ -61,14 +61,11 @@ export default function Home() {
             Welcome to <span className="font-ramona text-navy">NeoHacks</span>!
           </h2>
           <p className="text-lg ">
-            NeoHacks is a 36-hour hackathon taking place on August 6th where
+            NeoHacks is a 36-hour hackathon taking place on August 6th to 7th where
             hundreds of students from around the world will come together
-            virtually to learn new skills, meet new friends, and build awesome
+            virtually and in person to learn new skills, meet new friends, and build awesome
             projects. We provide beginner-friendly workshops, mentorship, fun
-            games, and more. The first day of the event will be a workshop-based
-            learnathon where you will get a chance to gain new skills. The
-            second day will be dedicated towards building a project with your
-            team.
+            games, and more.
           </p>
         </section>
         <section>
@@ -77,7 +74,7 @@ export default function Home() {
             <Question title="Where is this held?">
               NeoHacks is a hybrid hackathon. The in-person event will take
               place in Seattle, Washignton. Location TBD. Participants may also
-              join us virtually on Discord.
+              join us virtually on Discord from anywhere on the globe.
             </Question>
             <Question title="What is a hackathon?">
               A hackathon is a great place to learn new skills, make new
@@ -107,13 +104,14 @@ export default function Home() {
               Every project submitted will be entered in this category.
             </Card>
             <Card type={2} icon="pencil" color="red" heading="Most Creative">
-              Make your wildest ideas a reality and earn the best creative prize
-              to win a gift card for your team!
+              Make your wildest ideas a reality and earn the best creative prize!
             </Card>
             <Card type={2} icon="globe" color="blue" heading="Best Web App">
-              Create a web application using any technologies of choice for a
-              chance to win a gift card!
+              Create a web application using any technologies of choice. The best web app will win the Best Web App prize!
             </Card>
+            <p className="text-lg ">
+            More prize categories will be announced closer to the event along with prizes for each category!
+            </p>
           </div>
         </section>
         {/* <section>
