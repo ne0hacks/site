@@ -47,7 +47,7 @@ export default function Home() {
               whileTap={{ scale: 0.9 }}
               className="p-2 px-6 text-base font-medium bg-white rounded-full font-inter md:text-lg w-min"
             >
-              <Link href="https://airtable.com/shrshwlldsgdG9GVs">Register</Link>
+              <Link href="/register">Register</Link>
             </motion.button>
           </motion.div>
           <img
