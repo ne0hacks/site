@@ -109,7 +109,7 @@ export default function Home() {
             <Card type={2} icon="globe" color="blue" heading="Best Web App">
               Create a web application using any technologies of choice. The best web app will win the Best Web App prize!
             </Card>
-            <p className="text-lg ">
+            <p className="text-lg">
             More prize categories will be announced closer to the event along with prizes for each category!
             </p>
           </div>
