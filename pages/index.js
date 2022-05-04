@@ -104,7 +104,7 @@ export default function Home() {
               Every project submitted will be entered in this category.
             </Card>
             <Card type={2} icon="pencil" color="red" heading="Most Creative">
-              Make your wildest ideas a reality and earn the best creative prize!
+              Make your wildest ideas a reality and earn the Most Creative prize!
             </Card>
             <Card type={2} icon="globe" color="blue" heading="Best Web App">
               Create a web application using any technologies of choice. The best web app will win the Best Web App prize!
