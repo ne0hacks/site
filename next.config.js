@@ -8,7 +8,7 @@ module.exports = {
       },
       {
         source: "/register",
-        destination: "https://airtable.com/shrhuP6sBAWskOiqT",
+        destination: "https://airtable.com/shrshwlldsgdG9GVs",
         permanent: false,
       },
     ];
