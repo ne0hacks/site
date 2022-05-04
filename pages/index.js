@@ -74,7 +74,7 @@ export default function Home() {
             <Question title="Where is this held?">
               NeoHacks is a hybrid hackathon. The in-person event will take
               place in Seattle, Washignton. Location TBD. Participants may also
-              join us virtually on Discord from anywhere on the globe.
+              join us virtually on Discord from anywhere in the world.
             </Question>
             <Question title="What is a hackathon?">
               A hackathon is a great place to learn new skills, make new
