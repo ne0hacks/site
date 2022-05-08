@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 import Workshop from "../components/Workshop";
 import Sponsor from "../components/Sponsor";
 import Card from "../components/Card";
+import Nav from "../components/nav";
 // import Announcement from "../components/Announcement";
 
 const Sponsors = [
@@ -28,6 +29,7 @@ export default function Home() {
     <div>
       <HeadObject />
       <main>
+        <Nav />
         <section className="m-0 bg-navy">
           <motion.div
             initial={{ x: -300, opacity: 0 }}

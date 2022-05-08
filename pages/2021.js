@@ -1,8 +1,28 @@
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
-import { Pie } from "react-chartjs-2";
+import {
+  Chart as ChartJS,
+  ArcElement,
+  Tooltip,
+  Legend,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+} from "chart.js";
+import { Pie, Bar } from "react-chartjs-2";
 import HeadObject from "../components/head";
+import Link from "next/link";
+import Footer from "../components/Footer";
+import Nav from "../components/nav";
 
-ChartJS.register(ArcElement, Tooltip, Legend);
+ChartJS.register(
+  ArcElement,
+  Tooltip,
+  Legend,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title
+);
 
 export const countryData = {
   labels: [
@@ -38,11 +58,29 @@ export const countryData = {
   ],
 };
 
+export const skillData = {
+  labels: [
+    "Never coded",
+    "A bit of experience",
+    "Taken a coding class",
+    "Attended a hackathon",
+    "Self proclaimed expert",
+  ],
+  datasets: [
+    {
+      label: "Hackers",
+      data: [70, 154, 82, 64, 13],
+      backgroundColor: "rgba(23, 57, 124, 0.5)",
+    },
+  ],
+};
+
 const RecapPage = () => {
   return (
     <>
       <HeadObject />
       <main>
+        <Nav />
         <section>
           <h1 className="pb-8 text-7xl font-ramona">NeoHacks I Recap</h1>
           <div className="grid grid-cols-2 gap-4">
@@ -56,16 +94,35 @@ const RecapPage = () => {
               </article>
             </div>
             <div className="card">
-              <p>
-                In 2021, we had 381 hackers from 26 different countries register
-                for the event. See the country breakdown below.
+              <p className="pb-8">
+                Most people who registered were beginners in coding. During the
+                event, we hosted 12 beginner-oriented workshops to provide
+                inspiration for projects.
               </p>
               <article className="mx-auto w-96">
-                <Pie data={countryData} />
+                <Bar data={skillData} />
               </article>
+              <p className="pt-8">
+                At the end of the weekend, we had a total of 37 amazing projects
+                submitted through{" "}
+                <Link
+                  href="https://neo-hacks.devpost.com/project-gallery"
+                  passHref
+                >
+                  <a className="text-gray-500 hover:underline">Devpost</a>
+                </Link>
+                .
+              </p>
             </div>
           </div>
         </section>
+        <section>
+          <p className="max-w-3xl mx-auto text-2xl text-center">
+            Thanks to everyone who attended, volunteered, or otherwise
+            contributed their time to help make NeoHacks possible! ✨
+          </p>
+        </section>
+        <Footer />
       </main>
     </>
   );
