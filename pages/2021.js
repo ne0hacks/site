@@ -78,7 +78,7 @@ export const skillData = {
 const RecapPage = () => {
   return (
     <>
-      <HeadObject />
+      <HeadObject pageTitle="2021" />
       <main>
         <Nav />
         <section>

@@ -75,13 +75,13 @@ export default function Home() {
           <div className="grid grid-cols-1 gap-10 mt-4 md:grid-cols-2">
             <Question title="Where is this held?">
               NeoHacks is a hybrid hackathon. The in-person event will take
-              place in Seattle, Washignton. Location TBD. Participants may also
-              join us virtually on Discord from anywhere in the world.
+              place in Seattle, WA. Location TBD. Participants may also join us
+              virtually on Discord from anywhere in the world.
             </Question>
             <Question title="What is a hackathon?">
               A hackathon is a great place to learn new skills, make new
-              friends, and have fun. By the end of the hackathon, you will have
-              turn in a project for feedback from judges.
+              friends, and have fun. By the end of the hackathon, you'll have
+              made an awesome project ready to demo to your peers and judges.
             </Question>
             <Question title="Who is eligible to participate?">
               This hackathon is all high school students. We highly encourage
