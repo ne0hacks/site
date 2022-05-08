@@ -12,12 +12,18 @@
     font-display: swap;
   }
   p {
-    @apply font-inter text-black;
+    @apply text-black font-inter;
   }
   h2 {
-    @apply font-inter font-black text-5xl text-black pb-4;
+    @apply pb-4 text-5xl font-black text-black font-inter;
   }
   section {
-    @apply my-20 mx-8 md:mx-24;
+    @apply mx-8 my-20 md:mx-24;
+  }
+}
+
+@layer components {
+  .card {
+    @apply p-4 mx-4 my-4 bg-gray-200 rounded-lg;
   }
 }
