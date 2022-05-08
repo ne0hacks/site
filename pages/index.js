@@ -244,7 +244,7 @@ export default function Home() {
               name="Neta Shubin"
               role="Hacker Experience."
               pronouns="she/her"
-              src="https://github.com/minimachines.png"
+              src="https://ca.slack-edge.com/T0391D4LXF1-U039JFNQPNW-1734b68a9e82-512"
             />
             <Person
               name="Victor Demunck"
