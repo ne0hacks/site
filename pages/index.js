@@ -61,11 +61,11 @@ export default function Home() {
             Welcome to <span className="font-ramona text-navy">NeoHacks</span>!
           </h2>
           <p className="text-lg ">
-            NeoHacks is a 36-hour hackathon taking place on August 6th to 7th where
-            hundreds of students from around the world will come together
-            virtually and in person to learn new skills, meet new friends, and build awesome
-            projects. We provide beginner-friendly workshops, mentorship, fun
-            games, and more.
+            NeoHacks is a 36-hour hackathon taking place on August 6th to 7th
+            where hundreds of students from around the world will come together
+            virtually and in person to learn new skills, meet new friends, and
+            build awesome projects. We provide beginner-friendly workshops,
+            mentorship, fun games, and more.
           </p>
         </section>
         <section>
@@ -104,13 +104,16 @@ export default function Home() {
               Every project submitted will be entered in this category.
             </Card>
             <Card type={2} icon="pencil" color="red" heading="Most Creative">
-              Make your wildest ideas a reality and earn the Most Creative prize!
+              Make your wildest ideas a reality and earn the Most Creative
+              prize!
             </Card>
             <Card type={2} icon="globe" color="blue" heading="Best Web App">
-              Create a web application using any technologies of choice. The best web app will win the Best Web App prize!
+              Create a web application using any technologies of choice. The
+              best web app will win the Best Web App prize!
             </Card>
             <p className="text-lg">
-            More prize categories will be announced closer to the event along with prizes for each category!
+              More prize categories will be announced closer to the event along
+              with prizes for each category!
             </p>
           </div>
         </section>
