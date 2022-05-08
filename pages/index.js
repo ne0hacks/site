@@ -84,7 +84,7 @@ export default function Home() {
               made an awesome project ready to demo to your peers and judges.
             </Question>
             <Question title="Who is eligible to participate?">
-              This hackathon is all high school students. We highly encourage
+              This hackathon is for high school students. We highly encourage
               beginners to participate!
             </Question>
             <Question title="How can I prepare for a hackathon?">
