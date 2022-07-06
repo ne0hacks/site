@@ -10,6 +10,7 @@ import Workshop from "../components/Workshop";
 import Sponsor from "../components/Sponsor";
 import Card from "../components/Card";
 import Nav from "../components/nav";
+import Social from "../components/Social";
 // import Announcement from "../components/Announcement";
 
 const Sponsors = [
@@ -22,6 +23,34 @@ const Sponsors = [
     companyName: "Sticker Mule",
     logo: "/logos/sticker-mule-logo-light-bg.svg",
     website: "https://www.stickermule.com/",
+  },
+];
+
+const Socials = [
+  {
+    socialName: "Instagram",
+    icon: "/logos/instagram.png",
+    site: "https://www.instagram.com/neohacks_/",
+  },
+  {
+    socialName: "Twitter",
+    icon: "/logos/twitter.png",
+    site: "https://twitter.com/Neo_Hacks",
+  },
+  {
+    socialName: "Linkedin",
+    icon: "/logos/linkedin.png",
+    site: "https://www.linkedin.com/company/neohacks/",
+  },
+  {
+    socialName: "TikTok",
+    icon: "/logos/tiktok.png",
+    site: "https://www.tiktok.com/@neohacks",
+  },
+  {
+    socialName: "Facebook",
+    icon: "/logos/facebook.png",
+    site: "https://www.facebook.com/profile.php?id=100083050453166",
   },
 ];
 
@@ -80,7 +109,7 @@ export default function Home() {
               title="We are looking for vounteers!"
               children="If you are interested in helping us put on NeoHacks 2.0, please use "
               url="https://airtable.com/shrO0A0nlgpclXoM2"
-              register="this form to register now."
+              register="this form to register now!"
             ></Workshop>
         </section>
         <section>
@@ -244,7 +273,7 @@ DevITjobs is not only for Developers but for everyone working in the IT industry
               name="Risha Jhangiani"
               role="Lead Organizer."
               pronouns="she/her"
-              src="https://github.com/rishadjhangiani.png"
+              src="https://ca.slack-edge.com/T0391D4LXF1-U039G194E4B-bc2b49a8f43d-512"
             />
             <Person
               name="Marius Schaefer"
@@ -294,6 +323,20 @@ DevITjobs is not only for Developers but for everyone working in the IT industry
               pronouns=""
               src="https://ca.slack-edge.com/T0391D4LXF1-U03CJSFU5RA-b37f745bf36e-512"
             />
+          </div>
+        </section>
+        <section>
+          <div className="grid grid-cols-1 md:grid-cols-5 content-center	place-items-center">
+            {Socials.map(({ icon, socialName, site }) => {
+              return (
+                <Social
+                  key={socialName}
+                  icon={icon}
+                  socialName={socialName}
+                  site={site}
+                />
+              );
+            })}
           </div>
         </section>
       </main>

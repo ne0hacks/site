@@ -23,9 +23,7 @@
   section {
     @apply mx-8 my-20 md:mx-24;
   }
-  img {
-    @apply scale-75
-  }
+
 }
 
 @layer components {
