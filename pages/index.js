@@ -41,7 +41,7 @@ export default function Home() {
               NeoHacks
             </h1>
             <h3 className="w-2/3 text-xl text-white font-fira md:text-2xl md:w-full">
-              August 6-7th, 2022 &middot; Hybrid
+              August 6-7th, 2022 &middot; Virtual
             </h3>
 
             <motion.button
@@ -65,17 +65,24 @@ export default function Home() {
           <p className="text-lg ">
             NeoHacks is a 36-hour hackathon taking place on August 6th to 7th
             where hundreds of students from around the world will come together
-            virtually and in person to learn new skills, meet new friends, and
+            virtually to learn new skills, meet new friends, and
             build awesome projects. We provide beginner-friendly workshops,
             mentorship, fun games, and more.
           </p>
+        </section>
+        <section className="grid grid-cols-1 gap-10 mt-4 md:grid-cols-1">
+            <Workshop
+              title="We are looking for vounteers!"
+              children="If you are interested in helping us put on NeoHacks 2.0, please use "
+              url="https://airtable.com/shrO0A0nlgpclXoM2"
+              register="this form to register now."
+            ></Workshop>
         </section>
         <section>
           <h2>FAQ</h2>
           <div className="grid grid-cols-1 gap-10 mt-4 md:grid-cols-2">
             <Question title="Where is this held?">
-              NeoHacks is a hybrid hackathon. The in-person event will take
-              place in Seattle, WA. Location TBD. Participants may also join us
+              NeoHacks is an online hackathon. Participants may join us
               virtually on Discord from anywhere in the world.
             </Question>
             <Question title="What is a hackathon?">
@@ -119,26 +126,25 @@ export default function Home() {
             </p>
           </div>
         </section>
-        {/* <section>
+        { <section>
           <h2>Workshops</h2>
           <div className="grid grid-cols-1 gap-10 mt-4 md:grid-cols-2">
             <Workshop
-              title="Intro to HTML/CSS"
-              hostName="Farhan Ashraf"
+              title="Animate Your Websites with CSS and More"
+              hostName="Mutammim Sarkar"
               hostPfp="https://ca.slack-edge.com/T0266FRGM-U01UJAYQBL0-2219100ca9ee-512"
             >
-              This workshop serves as an introduction to web development with
-              HTML and CSS.
+            Quick overview of HTML and then a deep dive into CSS. Give your websites that extra :sparkles: sparkle :sparkles: with animations! Learn how to create them using CSS and (if we have the time) JavaScript.
             </Workshop>
             <Workshop
-              title="Intro to Figma"
-              hostName="Raghav Poddar"
-              hostPfp="https://cdn.discordapp.com/attachments/820189023384633344/862941798803963925/unknown.png"
+              title="Intro to Java"
+              hostName="Logan Dinh"
+              hostPfp="https://www.linkedin.com/in/logan-dinh-a00a9521b/"
             >
-              Learn how to use Figma, a free design and prototyping software, to
-              develop the UI for your project.
+              How we can implement simple algorithms and conditional statements to help solve bigger problems?
+Java is a fundamental language used in software engineering where we use simple tools to help us solve complex problems. In this workshop, I will try to bridge the gap between these powerful yet simple tools for everyone to use. After this workshop, you should have a better understanding of how to implement these tools towards your personal project.
             </Workshop>
-            <Workshop
+            {/*<Workshop
               title="Intro to Git/GitHub"
               hostName="Dmytro Budym"
               hostPfp="https://cloud-17ec4f90s-hack-club-bot.vercel.app/0image__1_.jpeg"
@@ -199,13 +205,21 @@ export default function Home() {
               Learn the basics of ML using Kobra, a visual programming language
               for machine learning. By the end, you will be able to build and
               deploy your own model with Kobra.
-            </Workshop>
+            </Workshop>*/}
           </div>
-        </section> */}
+        </section> }
 
-        {/* <section>
-          <h2 className="pb-4">Sponsors</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4">
+        { <section>
+          <h2 className="pb-4">Sponsors/Partners</h2>
+          <div className="grid grid-cols-2 md:grid-cols-2">
+            <Workshop
+              title="DevITJobs"
+              hostPfp = "/public/logos/devit.png"
+            >
+              DevITjobs is the first job board built with Software Engineers in mind.
+The main goal of the company is to bring more transparency, openness and diversity to the US IT market.
+DevITjobs is not only for Developers but for everyone working in the IT industry: Engineers, SAP and System Admins, Product Managers, QAs and UX/UI Designers!
+            </Workshop>
             {Sponsors.map(({ logo, companyName, website }) => {
               return (
                 <Sponsor
@@ -217,7 +231,7 @@ export default function Home() {
               );
             })}
           </div>
-        </section> */}
+        </section> }
 
         <section>
           <h2>Team</h2>
@@ -269,6 +283,12 @@ export default function Home() {
               role="Finance."
               pronouns=""
               src="https://ca.slack-edge.com/T0391D4LXF1-U039FB5AHMK-2d26f9e8e824-512"
+            />
+            <Person
+              name="Jules Ropar"
+              role="Hacker Experience."
+              pronouns=""
+              src="https://ca.slack-edge.com/T0391D4LXF1-U03CJSFU5RA-b37f745bf36e-512"
             />
           </div>
         </section>

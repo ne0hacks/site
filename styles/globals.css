@@ -17,6 +17,9 @@
   h2 {
     @apply pb-4 text-5xl font-black text-black font-inter;
   }
+  h3 {
+      @apply pb-4 text-5xl font-black text-black font-inter;
+  }
   section {
     @apply mx-8 my-20 md:mx-24;
   }
