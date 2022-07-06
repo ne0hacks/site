@@ -14,6 +14,11 @@ import Nav from "../components/nav";
 
 const Sponsors = [
   {
+    companyName: "DevITJobs",
+    logo: "/logos/devit.png",
+    website: "https://devitjobs.us/startup-jobs",
+  },
+  {
     companyName: "Sticker Mule",
     logo: "/logos/sticker-mule-logo-light-bg.svg",
     website: "https://www.stickermule.com/",
@@ -214,7 +219,6 @@ Java is a fundamental language used in software engineering where we use simple 
           <div className="grid grid-cols-2 md:grid-cols-2">
             <Workshop
               title="DevITJobs"
-              hostPfp = "/public/logos/devit.png"
             >
               DevITjobs is the first job board built with Software Engineers in mind.
 The main goal of the company is to bring more transparency, openness and diversity to the US IT market.
