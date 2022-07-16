@@ -31,27 +31,27 @@ const Sponsors = [
 const Socials = [
   {
     socialName: "Instagram",
-    icon: "instagram",
+    icon: "logos/instagram.svg",
     site: "https://www.instagram.com/neohacks_/",
   },
   {
     socialName: "Twitter",
-    icon: "twitter",
+    icon: "logos/twitter.svg",
     site: "https://twitter.com/Neo_Hacks",
   },
-  /*{
+  {
     socialName: "Linkedin",
-    icon: "/logos/linkedin.png",
+    icon: "/logos/linkedin.svg",
     site: "https://www.linkedin.com/company/neohacks/",
-  },*/
+  },
   {
     socialName: "TikTok",
-    icon: "/logos/tiktok.png",
+    icon: "/logos/tiktok.svg",
     site: "https://www.tiktok.com/@neohacks",
   },
   {
-    socialName: "Facebook",
-    icon: "facebook",
+    socialName: "Youtube",
+    icon: "/logos/youtube.svg",
     site: "https://www.facebook.com/profile.php?id=100083050453166",
   },
 ];

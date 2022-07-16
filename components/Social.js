@@ -7,11 +7,11 @@ export default function Social({ socialName, icon, site }) {
     <div>
       <Link href={site}>
         <a>
-          <Icon 
-            glyph={icon} 
-            size={70}
-            className="w-8 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-          ></Icon>
+          <img
+            src={icon}
+            alt={socialName}
+            className="w-9 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+          />
         </a>
       </Link>
     </div>
