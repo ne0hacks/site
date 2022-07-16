@@ -11,6 +11,8 @@ import Sponsor from "../components/Sponsor";
 import Card from "../components/Card";
 import Nav from "../components/nav";
 import Social from "../components/Social";
+
+
 // import Announcement from "../components/Announcement";
 
 const Sponsors = [
@@ -29,19 +31,19 @@ const Sponsors = [
 const Socials = [
   {
     socialName: "Instagram",
-    icon: "/logos/instagram.png",
+    icon: "instagram",
     site: "https://www.instagram.com/neohacks_/",
   },
   {
     socialName: "Twitter",
-    icon: "/logos/twitter.png",
+    icon: "twitter",
     site: "https://twitter.com/Neo_Hacks",
   },
-  {
+  /*{
     socialName: "Linkedin",
     icon: "/logos/linkedin.png",
     site: "https://www.linkedin.com/company/neohacks/",
-  },
+  },*/
   {
     socialName: "TikTok",
     icon: "/logos/tiktok.png",
@@ -49,7 +51,7 @@ const Socials = [
   },
   {
     socialName: "Facebook",
-    icon: "/logos/facebook.png",
+    icon: "facebook",
     site: "https://www.facebook.com/profile.php?id=100083050453166",
   },
 ];
@@ -173,29 +175,26 @@ export default function Home() {
             <Workshop
               title="Intro to Java"
               hostName="Logan Dinh"
-              hostPfp="https://www.linkedin.com/in/logan-dinh-a00a9521b/"
+              hostPfp="/logos/LoganDinh.jfif"
             >
               How we can implement simple algorithms and conditional statements to help solve bigger problems?
 Java is a fundamental language used in software engineering where we use simple tools to help us solve complex problems. In this workshop, I will try to bridge the gap between these powerful yet simple tools for everyone to use. After this workshop, you should have a better understanding of how to implement these tools towards your personal project.
             </Workshop>
+            <Workshop
+              title="Intro to React"
+              hostName="Lester Heredia-Gopar"
+              hostPfp="/logos/lester.png"
+            >
+              Use React to retrieve information and display it with JSX. Work with classes, props and components to fetch and display data into a web page.
+            </Workshop>
+            <Workshop
+              title="Algorithms and their Design"
+              hostName="Prakhar Sharma"
+              hostPfp="/logos/prakhar.JPG"
+            >
+              This workshop will explain how to deal with designing an algorithm, how to approach a problem, and possible ways to analyze said problem.
+            </Workshop>
             {/*<Workshop
-              title="Intro to Git/GitHub"
-              hostName="Dmytro Budym"
-              hostPfp="https://cloud-17ec4f90s-hack-club-bot.vercel.app/0image__1_.jpeg"
-            >
-              Learn the basics of Git and GitHub, a useful tool every developer
-              should be familiar with. At the end of the workshop, you will be
-              able to create your first pull request.
-            </Workshop>
-            <Workshop
-              title="Intro to Next.js (React)"
-              hostName="Sam Poder"
-              hostPfp="https://github.com/sampoder.png"
-            >
-              Learn the basics of Next.js, a React framework to build modern,
-              dynamic websites.
-            </Workshop>
-            <Workshop
               title="Expansion 101"
               hostName="Galicia Gordon"
               hostPfp="https://github.com/galiciagordon.png"

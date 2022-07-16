@@ -5,7 +5,7 @@ const links = [
     name: "Discord",
     href: "/discord",
   },
-  { name: "Sponsor Deck", href: "/NeoHacksProspectus.pdf" },
+  { name: "Sponsor Deck", href: "/NeoHacks 2.0 Prospectus.pdf" },
   {
     name: "Donate",
     href: "https://bank.hackclub.com/donations/start/neohacks",
