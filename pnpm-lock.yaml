@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   autoprefixer: ^10.4.5
@@ -16,11 +16,11 @@ specifiers:
 
 dependencies:
   chart.js: 3.7.1
-  framer-motion: 6.3.3_react-dom@18.1.0+react@18.1.0
-  next: 12.1.5_react-dom@18.1.0+react@18.1.0
-  next-themes: 0.1.1_45b484afb88699c8cb9235c0268a1cc5
+  framer-motion: 6.3.3_ef5jwxihqo6n7gxfmzogljlgcm
+  next: 12.1.5_ef5jwxihqo6n7gxfmzogljlgcm
+  next-themes: 0.1.1_iw2ijl5yq2m4rs4sgxacncq4yu
   react: 18.1.0
-  react-chartjs-2: 4.1.0_chart.js@3.7.1+react@18.1.0
+  react-chartjs-2: 4.1.0_cucfzy522lj4qdkvdkmj2po3ju
   react-dom: 18.1.0_react@18.1.0
   react-icons: 4.3.1_react@18.1.0
   swr: 1.3.0_react@18.1.0
@@ -345,7 +345,7 @@ packages:
     resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
     dev: true
 
-  /framer-motion/6.3.3_react-dom@18.1.0+react@18.1.0:
+  /framer-motion/6.3.3_ef5jwxihqo6n7gxfmzogljlgcm:
     resolution: {integrity: sha512-wo0dCnoq5vn4L8YVOPO9W54dliH78vDaX0Lj+bSPUys6Nt5QaehrS3uaYa0q5eVeikUgtTjz070UhQ94thI5Sw==}
     peerDependencies:
       react: '>=16.8 || ^17.0.0 || ^18.0.0'
@@ -473,19 +473,19 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  /next-themes/0.1.1_45b484afb88699c8cb9235c0268a1cc5:
+  /next-themes/0.1.1_iw2ijl5yq2m4rs4sgxacncq4yu:
     resolution: {integrity: sha512-Iqxt6rhS/KfK/iHJ0tfFjTcdLEAI0AgwFuAFrMwLOPK5e+MI3I+fzyvBoS+VaOS+NldUiazurhgwYhrfV0VXsQ==}
     peerDependencies:
       next: '>=11.1.1'
       react: '*'
       react-dom: '*'
     dependencies:
-      next: 12.1.5_react-dom@18.1.0+react@18.1.0
+      next: 12.1.5_ef5jwxihqo6n7gxfmzogljlgcm
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
     dev: false
 
-  /next/12.1.5_react-dom@18.1.0+react@18.1.0:
+  /next/12.1.5_ef5jwxihqo6n7gxfmzogljlgcm:
     resolution: {integrity: sha512-YGHDpyfgCfnT5GZObsKepmRnne7Kzp7nGrac07dikhutWQug7hHg85/+sPJ4ZW5Q2pDkb+n0FnmLkmd44htIJQ==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -643,7 +643,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /react-chartjs-2/4.1.0_chart.js@3.7.1+react@18.1.0:
+  /react-chartjs-2/4.1.0_cucfzy522lj4qdkvdkmj2po3ju:
     resolution: {integrity: sha512-AsUihxEp8Jm1oBhbEovE+w50m9PVNhz1sfwEIT4hZduRC0m14gHWHd0cUaxkFDb8HNkdMIGzsNlmVqKiOpU74g==}
     peerDependencies:
       chart.js: ^3.5.0

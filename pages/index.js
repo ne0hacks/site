@@ -10,13 +10,49 @@ import Workshop from "../components/Workshop";
 import Sponsor from "../components/Sponsor";
 import Card from "../components/Card";
 import Nav from "../components/nav";
+import Social from "../components/Social";
+
+
 // import Announcement from "../components/Announcement";
 
 const Sponsors = [
   {
+    companyName: "DevITJobs",
+    logo: "/logos/devit.png",
+    website: "https://devitjobs.us/startup-jobs",
+  },
+  {
     companyName: "Sticker Mule",
     logo: "/logos/sticker-mule-logo-light-bg.svg",
     website: "https://www.stickermule.com/",
+  },
+];
+
+const Socials = [
+  {
+    socialName: "Instagram",
+    icon: "logos/instagram.svg",
+    site: "https://www.instagram.com/neohacks_/",
+  },
+  {
+    socialName: "Twitter",
+    icon: "logos/twitter.svg",
+    site: "https://twitter.com/Neo_Hacks",
+  },
+  {
+    socialName: "Linkedin",
+    icon: "/logos/linkedin.svg",
+    site: "https://www.linkedin.com/company/neohacks/",
+  },
+  {
+    socialName: "TikTok",
+    icon: "/logos/tiktok.svg",
+    site: "https://www.tiktok.com/@neohacks",
+  },
+  {
+    socialName: "Youtube",
+    icon: "/logos/youtube.svg",
+    site: "https://www.facebook.com/profile.php?id=100083050453166",
   },
 ];
 
@@ -41,7 +77,7 @@ export default function Home() {
               NeoHacks
             </h1>
             <h3 className="w-2/3 text-xl text-white font-fira md:text-2xl md:w-full">
-              August 6-7th, 2022 &middot; Hybrid
+              August 6-7th, 2022 &middot; Virtual
             </h3>
 
             <motion.button
@@ -65,17 +101,24 @@ export default function Home() {
           <p className="text-lg ">
             NeoHacks is a 36-hour hackathon taking place on August 6th to 7th
             where hundreds of students from around the world will come together
-            virtually and in person to learn new skills, meet new friends, and
+            virtually to learn new skills, meet new friends, and
             build awesome projects. We provide beginner-friendly workshops,
             mentorship, fun games, and more.
           </p>
+        </section>
+        <section className="grid grid-cols-1 gap-10 mt-4 md:grid-cols-1">
+            <Workshop
+              title="We are looking for vounteers!"
+              children="If you are interested in helping us put on NeoHacks 2.0, please use "
+              url="https://airtable.com/shrO0A0nlgpclXoM2"
+              register="this form to register now!"
+            ></Workshop>
         </section>
         <section>
           <h2>FAQ</h2>
           <div className="grid grid-cols-1 gap-10 mt-4 md:grid-cols-2">
             <Question title="Where is this held?">
-              NeoHacks is a hybrid hackathon. The in-person event will take
-              place in Seattle, WA. Location TBD. Participants may also join us
+              NeoHacks is an online hackathon. Participants may join us
               virtually on Discord from anywhere in the world.
             </Question>
             <Question title="What is a hackathon?">
@@ -119,43 +162,39 @@ export default function Home() {
             </p>
           </div>
         </section>
-        {/* <section>
+        { <section>
           <h2>Workshops</h2>
           <div className="grid grid-cols-1 gap-10 mt-4 md:grid-cols-2">
             <Workshop
-              title="Intro to HTML/CSS"
-              hostName="Farhan Ashraf"
+              title="Animate Your Websites with CSS and More"
+              hostName="Mutammim Sarkar"
               hostPfp="https://ca.slack-edge.com/T0266FRGM-U01UJAYQBL0-2219100ca9ee-512"
             >
-              This workshop serves as an introduction to web development with
-              HTML and CSS.
+            Quick overview of HTML and then a deep dive into CSS. Give your websites that extra :sparkles: sparkle :sparkles: with animations! Learn how to create them using CSS and (if we have the time) JavaScript.
             </Workshop>
             <Workshop
-              title="Intro to Figma"
-              hostName="Raghav Poddar"
-              hostPfp="https://cdn.discordapp.com/attachments/820189023384633344/862941798803963925/unknown.png"
+              title="Intro to Java"
+              hostName="Logan Dinh"
+              hostPfp="/logos/LoganDinh.jfif"
             >
-              Learn how to use Figma, a free design and prototyping software, to
-              develop the UI for your project.
+              How we can implement simple algorithms and conditional statements to help solve bigger problems?
+Java is a fundamental language used in software engineering where we use simple tools to help us solve complex problems. In this workshop, I will try to bridge the gap between these powerful yet simple tools for everyone to use. After this workshop, you should have a better understanding of how to implement these tools towards your personal project.
             </Workshop>
             <Workshop
-              title="Intro to Git/GitHub"
-              hostName="Dmytro Budym"
-              hostPfp="https://cloud-17ec4f90s-hack-club-bot.vercel.app/0image__1_.jpeg"
+              title="Intro to React"
+              hostName="Lester Heredia-Gopar"
+              hostPfp="/logos/lester.png"
             >
-              Learn the basics of Git and GitHub, a useful tool every developer
-              should be familiar with. At the end of the workshop, you will be
-              able to create your first pull request.
+              Use React to retrieve information and display it with JSX. Work with classes, props and components to fetch and display data into a web page.
             </Workshop>
             <Workshop
-              title="Intro to Next.js (React)"
-              hostName="Sam Poder"
-              hostPfp="https://github.com/sampoder.png"
+              title="Algorithms and their Design"
+              hostName="Prakhar Sharma"
+              hostPfp="/logos/prakhar.JPG"
             >
-              Learn the basics of Next.js, a React framework to build modern,
-              dynamic websites.
+              This workshop will explain how to deal with designing an algorithm, how to approach a problem, and possible ways to analyze said problem.
             </Workshop>
-            <Workshop
+            {/*<Workshop
               title="Expansion 101"
               hostName="Galicia Gordon"
               hostPfp="https://github.com/galiciagordon.png"
@@ -199,13 +238,20 @@ export default function Home() {
               Learn the basics of ML using Kobra, a visual programming language
               for machine learning. By the end, you will be able to build and
               deploy your own model with Kobra.
-            </Workshop>
+            </Workshop>*/}
           </div>
-        </section> */}
+        </section> }
 
-        {/* <section>
-          <h2 className="pb-4">Sponsors</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4">
+        { <section>
+          <h2 className="pb-4">Sponsors/Partners</h2>
+          <div className="grid grid-cols-2 md:grid-cols-2">
+            <Workshop
+              title="DevITJobs"
+            >
+              DevITjobs is the first job board built with Software Engineers in mind.
+The main goal of the company is to bring more transparency, openness and diversity to the US IT market.
+DevITjobs is not only for Developers but for everyone working in the IT industry: Engineers, SAP and System Admins, Product Managers, QAs and UX/UI Designers!
+            </Workshop>
             {Sponsors.map(({ logo, companyName, website }) => {
               return (
                 <Sponsor
@@ -217,7 +263,7 @@ export default function Home() {
               );
             })}
           </div>
-        </section> */}
+        </section> }
 
         <section>
           <h2>Team</h2>
@@ -226,7 +272,7 @@ export default function Home() {
               name="Risha Jhangiani"
               role="Lead Organizer."
               pronouns="she/her"
-              src="https://github.com/rishadjhangiani.png"
+              src="https://ca.slack-edge.com/T0391D4LXF1-U039G194E4B-bc2b49a8f43d-512"
             />
             <Person
               name="Marius Schaefer"
@@ -270,6 +316,26 @@ export default function Home() {
               pronouns=""
               src="https://ca.slack-edge.com/T0391D4LXF1-U039FB5AHMK-2d26f9e8e824-512"
             />
+            <Person
+              name="Jules Ropar"
+              role="Hacker Experience."
+              pronouns=""
+              src="https://ca.slack-edge.com/T0391D4LXF1-U03CJSFU5RA-b37f745bf36e-512"
+            />
+          </div>
+        </section>
+        <section>
+          <div className="grid grid-cols-1 md:grid-cols-5 content-center	place-items-center">
+            {Socials.map(({ icon, socialName, site }) => {
+              return (
+                <Social
+                  key={socialName}
+                  icon={icon}
+                  socialName={socialName}
+                  site={site}
+                />
+              );
+            })}
           </div>
         </section>
       </main>
